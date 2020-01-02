@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
-Date     : 29.12.2019
-Time     : 22:46:40
+Date     : 01.01.2020
+Time     : 14:14:00
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
 Rule Violations :0
@@ -16,12 +16,12 @@ Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('100R_diff')),(A
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(67.375mm,51.75mm) on Top 
-   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(67.375mm,60.15mm) on Top 
-   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(67.4mm,105.65mm) on Top 
-   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(67.4mm,97.25mm) on Top 
-   Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (83.35mm,71.958mm) on Int5 [PWR] And Polygon Track (83.35mm,72mm)(88.875mm,72mm) on Int5 [PWR] 
-   Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (83.35mm,72.032mm) on Int5 [PWR] And Polygon Track (83.35mm,72mm)(88.875mm,72mm) on Int5 [PWR] 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,16.55mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,8.15mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top 
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,62.05mm) on Top 
+   Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (20.65mm,28.358mm) on Int4 [PWR] And Polygon Track (20.65mm,28.4mm)(26.175mm,28.4mm) on Int4 [PWR] 
+   Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (20.65mm,28.432mm) on Int4 [PWR] And Polygon Track (20.65mm,28.4mm)(26.175mm,28.4mm) on Int4 [PWR] 
 Rule Violations :6
 
 Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
@@ -52,7 +52,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net SCH Between Via (105.05mm,74.677mm) from Top to Bottom And Via (136.95mm,81.825mm) from Top to Bottom 
+   Violation between Un-Routed Net Constraint: Net SCH Between Via (53.975mm,56.802mm) from Top to Bottom And Via (74.25mm,39.3mm) from Top to Bottom 
 Rule Violations :1
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -98,17 +98,17 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0.149mm < 0.2mm) Between Board Edge And Pad B10-1(64.9mm,45.875mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.151mm < 0.2mm) Between Board Edge And Pad B13-1(115.088mm,45.875mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.151mm < 0.2mm) Between Board Edge And Pad B30-1(88.088mm,45.875mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Pad B31-1(88.088mm,110.575mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Pad B8-1(115.088mm,110.575mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.2mm) Between Board Edge And Pad B9-1(64.95mm,110.575mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (58.5mm,75.2mm)(58.5mm,93.6mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (58.5mm,75.2mm)(68.3mm,75.2mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (58.5mm,93.6mm)(68.3mm,93.6mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.134mm < 0.2mm) Between Board Edge And Via (63.137mm,48.995mm) from Top to Bottom 
-   Violation between Board Outline Clearance(Outline Edge): (0.133mm < 0.2mm) Between Board Edge And Via (63.137mm,50.37mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B10-1(2.159mm,2.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B13-1(52.159mm,2.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B30-1(25.159mm,2.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B31-1(25.159mm,67.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B8-1(52.159mm,67.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B9-1(2.159mm,67.159mm) on Multi-Layer 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(-4.2mm,50mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(5.6mm,31.6mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,50mm)(5.6mm,50mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.187mm < 0.2mm) Between Board Edge And Via (0.437mm,5.395mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.187mm < 0.2mm) Between Board Edge And Via (0.437mm,6.77mm) from Top to Bottom 
 Rule Violations :11
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (InNet('SCH') And OnLayer('Top'))
@@ -116,14 +116,16 @@ Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
    Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) 
-   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (73.025mm,55.95mm) on Top 
-   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (73.025mm,55.95mm) on Top 
-Rule Violations :3
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top 
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top 
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Small Component B31-Plated Hole (25.388mm,67.18mm) on Top And SMT Small Component C30-1uF (21.2mm,64.15mm) on Top 
+   Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Small Component B8-Plated Hole (52.388mm,67.18mm) on Top And SMT Small Component C162-1uF (48.975mm,65.625mm) on Top 
+Rule Violations :5
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 21
+Violations Detected : 23
 Waived Violations : 0
-Time Elapsed        : 00:00:29
+Time Elapsed        : 00:00:28
