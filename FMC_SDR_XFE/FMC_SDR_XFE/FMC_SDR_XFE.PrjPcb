@@ -293,40 +293,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BFJBLSYF
-
-[Document17]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LPEBAJKE
-
-[Document18]
 DocumentPath=FMC_SDR_XFE.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document17]
 DocumentPath=FMC_SDR_XFE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWAIQQMH
 
-[Document20]
+[Document18]
 DocumentPath=PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document19]
 DocumentPath=FMC_SDR_XFE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMUUWORL
 
-[Document22]
+[Document20]
 DocumentPath=FMC_SDR_XFE1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1

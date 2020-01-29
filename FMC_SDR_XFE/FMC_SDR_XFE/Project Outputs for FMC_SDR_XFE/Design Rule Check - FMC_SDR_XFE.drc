@@ -1,18 +1,30 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
-Date     : 01.01.2020
-Time     : 14:14:00
+Date     : 27.01.2020
+Time     : 16:41:35
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampLO_TX_1')),(All)
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampTX_1')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC38_1')),(All)
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC10_PreampRX2_1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('100R_diff')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
@@ -20,18 +32,12 @@ Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
    Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,8.15mm) on Top 
    Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top 
    Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,62.05mm) on Top 
+   Violation between Clearance Constraint: (0.062mm < 0.15mm) Between Pad BSC11-1(68.14mm,52.872mm) on Top And Pad C36-1(68.85mm,52mm) on Top 
+   Violation between Clearance Constraint: (0.062mm < 0.15mm) Between Pad BSC11-1(68.14mm,52.872mm) on Top And Pad C36-2(67.95mm,52mm) on Top 
+   Violation between Clearance Constraint: (0.122mm < 0.15mm) Between Pad BSC11-1(68.14mm,52.872mm) on Top And Via (67.95mm,52mm) from Top to Bottom 
    Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (20.65mm,28.358mm) on Int4 [PWR] And Polygon Track (20.65mm,28.4mm)(26.175mm,28.4mm) on Int4 [PWR] 
    Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (20.65mm,28.432mm) on Int4 [PWR] And Polygon Track (20.65mm,28.4mm)(26.175mm,28.4mm) on Int4 [PWR] 
-Rule Violations :6
-
-Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC10_PreampRX2_1')),(All)
-Rule Violations :0
+Rule Violations :9
 
 Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(All)
 Rule Violations :0
@@ -39,13 +45,10 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.15mm) (IsVia and ( InNet('GND') or InNet('PA_GND'))),(InNetClass('50R_class') or IsDifferentialPair)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
-Rule Violations :0
-
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC88_1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -58,16 +61,16 @@ Rule Violations :1
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=1.5mm) (InNetClass('highPower'))
-Rule Violations :0
-
 Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.25mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('50R_class'))
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=1.5mm) (InNetClass('highPower'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.7mm) (InNetClass('midPower'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('50R_class'))
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
@@ -98,20 +101,30 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B10-1(2.159mm,2.159mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B13-1(52.159mm,2.159mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.159mm < 0.2mm) Between Board Edge And Pad B30-1(25.159mm,2.159mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B31-1(25.159mm,67.159mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B8-1(52.159mm,67.159mm) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (0.091mm < 0.2mm) Between Board Edge And Pad B9-1(2.159mm,67.159mm) on Multi-Layer 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(-4.2mm,50mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(5.6mm,31.6mm) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,50mm)(5.6mm,50mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.187mm < 0.2mm) Between Board Edge And Via (0.437mm,5.395mm) from Top to Bottom 
-   Violation between Board Outline Clearance(Outline Edge): (0.187mm < 0.2mm) Between Board Edge And Via (0.437mm,6.77mm) from Top to Bottom 
-Rule Violations :11
+   Violation between Board Outline Clearance(Outline Edge): (0.137mm < 0.2mm) Between Board Edge And Via (0.437mm,5.395mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.137mm < 0.2mm) Between Board Edge And Via (0.437mm,6.77mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.188mm < 0.2mm) Between Board Edge And Via (58.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (59.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (61.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (62.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (64.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (65.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (67.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (68.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (70.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (71.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (73.332mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (74.832mm,15.056mm) from Top to Bottom 
+   Violation between Board Outline Clearance(Outline Edge): (0.181mm < 0.2mm) Between Board Edge And Via (76.332mm,15.056mm) from Top to Bottom 
+Rule Violations :18
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (InNet('SCH') And OnLayer('Top'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Top Solder') OR OnLayer('Bottom Solder')))
 Rule Violations :0
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
@@ -126,6 +139,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 23
+Violations Detected : 33
 Waived Violations : 0
-Time Elapsed        : 00:00:28
+Time Elapsed        : 00:00:48
