@@ -242,6 +242,23 @@ GenerateClassCluster=0
 DocumentUniqueId=WLHFSTIA
 
 [Document13]
+DocumentPath=LT3080.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=22
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JMDRLGAU
+
+[Document14]
 DocumentPath=GroundsCoupling.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EUMHQDHP
 
-[Document14]
+[Document15]
 DocumentPath=FrontEnd_PS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOTUXFNC
 
-[Document15]
+[Document16]
 DocumentPath=FrontEnd.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=FMC_SDR_XFE.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document18]
 DocumentPath=FMC_SDR_XFE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWAIQQMH
 
-[Document18]
+[Document19]
 DocumentPath=PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=FMC_SDR_XFE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMUUWORL
 
-[Document20]
+[Document21]
 DocumentPath=FMC_SDR_XFE1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -503,7 +520,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L8650CDW
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
