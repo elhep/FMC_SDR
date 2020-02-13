@@ -208,40 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EWAIQQMH
 
 [Document11]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BFJBLSYF
-
-[Document12]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LPEBAJKE
-
-[Document13]
 DocumentPath=LTM8032_5V5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ULMJLBLE
 
-[Document14]
+[Document12]
 DocumentPath=LTM8056.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEHDELGD
 
-[Document15]
+[Document13]
 DocumentPath=LTM8032_3V8.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGOAVJLH
 
-[Document16]
+[Document14]
 DocumentPath=FMC_SDR_LFFE.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1

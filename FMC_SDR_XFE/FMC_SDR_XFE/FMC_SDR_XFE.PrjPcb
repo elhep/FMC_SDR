@@ -48,7 +48,7 @@ AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -65,7 +65,7 @@ AnnotateOrder=15
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -82,7 +82,7 @@ AnnotateOrder=14
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -99,13 +99,30 @@ AnnotateOrder=17
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CQFRHWHM
 
 [Document5]
+DocumentPath=LTM8074_PA.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=19
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YHUCBWAK
+
+[Document6]
 DocumentPath=Preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,13 +133,13 @@ AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QFEUPSIE
 
-[Document6]
+[Document7]
 DocumentPath=LTM8074.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,13 +150,30 @@ AnnotateOrder=16
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WLKNLYJM
 
-[Document7]
+[Document8]
+DocumentPath=SCH_PDF.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
 DocumentPath=PreampTX.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,13 +184,30 @@ AnnotateOrder=18
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPYJCPKO
 
-[Document8]
+[Document10]
+DocumentPath=LTM8074neg_PA.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=20
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UULUXALU
+
+[Document11]
 DocumentPath=PLL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,13 +218,13 @@ AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TCAFTRMG
 
-[Document9]
+[Document12]
 DocumentPath=FrontEnd.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +241,41 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WLHFSTIA
 
-[Document10]
+[Document13]
+DocumentPath=LT3080.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=22
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JMDRLGAU
+
+[Document14]
+DocumentPath=GroundsCoupling.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=21
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EUMHQDHP
+
+[Document15]
 DocumentPath=FrontEnd_PS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AOTUXFNC
 
-[Document11]
+[Document16]
 DocumentPath=FrontEnd.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,41 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BFJBLSYF
-
-[Document13]
-DocumentPath=..\..\FMC_SDR_PCB\Lib\FMC_SDR.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LPEBAJKE
-
-[Document14]
+[Document17]
 DocumentPath=FMC_SDR_XFE.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document18]
 DocumentPath=FMC_SDR_XFE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWAIQQMH
 
-[Document16]
+[Document19]
 DocumentPath=PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,24 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
-DocumentPath=..\FMC_SDR_XFE.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZIVFBHRY
-
-[Document18]
+[Document20]
 DocumentPath=FMC_SDR_XFE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMUUWORL
 
-[Document19]
+[Document21]
 DocumentPath=FMC_SDR_XFE1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,6 +394,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CNTSHBCD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for FMC_SDR_XFE\Design Rule Check - FMC_SDR_XFE.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -369,6 +407,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -479,7 +520,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L8650CDW
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -983,7 +1024,7 @@ Type14=1
 Type15=1
 Type16=1
 Type17=1
-Type18=1
+Type18=0
 Type19=1
 Type20=1
 Type21=1
@@ -1161,14 +1202,14 @@ Type5=2
 Type6=2
 Type7=1
 Type8=1
-Type9=1
+Type9=2
 Type10=1
 Type11=2
 Type12=2
 Type13=2
 Type14=1
-Type15=1
-Type16=1
+Type15=2
+Type16=2
 Type17=1
 Type18=1
 Type19=1
@@ -1209,13 +1250,13 @@ Type53=1
 Type54=1
 Type55=1
 Type56=2
-Type57=1
-Type58=1
+Type57=2
+Type58=2
 Type59=2
 Type60=1
 Type61=2
 Type62=2
-Type63=1
+Type63=2
 Type64=0
 Type65=2
 Type66=3
@@ -1307,7 +1348,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
