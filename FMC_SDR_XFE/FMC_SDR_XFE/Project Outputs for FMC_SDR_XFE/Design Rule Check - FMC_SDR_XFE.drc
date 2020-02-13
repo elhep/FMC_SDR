@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
 Date     : 13.02.2020
-Time     : 15:47:14
+Time     : 16:18:49
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampTX_1')),(All)
 Rule Violations :0
@@ -119,4 +119,4 @@ Rule Violations :0
 
 Violations Detected : 14
 Waived Violations : 0
-Time Elapsed        : 00:01:02
+Time Elapsed        : 00:01:01
