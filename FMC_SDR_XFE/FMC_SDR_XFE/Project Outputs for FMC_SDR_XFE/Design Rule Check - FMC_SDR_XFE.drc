@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
-Date     : 12.02.2020
-Time     : 18:47:21
+Date     : 13.02.2020
+Time     : 15:47:14
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampTX_1')),(All)
 Rule Violations :0
@@ -15,17 +15,17 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
    Violation between Clearance Constraint: (0.46mm < 0.5mm) Between Pad C37-1(65.3mm,19.825mm) on Top And Track (65.3mm,18.925mm)(66.965mm,18.925mm) on Top 
 Rule Violations :1
 
-Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
-Rule Violations :0
-
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('100R_diff')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
+Processing Rule : Clearance Constraint (Gap=0.15mm) (IsVia and ( InNet('GND') or InNet('PA_GND'))),(InNetClass('50R_class') or IsDifferentialPair)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
@@ -37,16 +37,13 @@ Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
    Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (8.002mm,51.798mm) on Int6 [PWR] And Polygon Track (0.433mm,44.281mm)(7.951mm,51.8mm) on Int6 [PWR] 
 Rule Violations :6
 
-Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(All)
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (IsVia and ( InNet('GND') or InNet('PA_GND'))),(InNetClass('50R_class') or IsDifferentialPair)
+Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC88_1')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -122,4 +119,4 @@ Rule Violations :0
 
 Violations Detected : 14
 Waived Violations : 0
-Time Elapsed        : 00:00:58
+Time Elapsed        : 00:01:02
