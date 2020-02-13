@@ -224,6 +224,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMPSVPGN
 
+[Document12]
+DocumentPath=Schematics\GroundsCoupling.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EUMHQDHP
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for FMC_SDR\Design Rule Check - FMC_SDR.html
 DItemRevisionGUID=
@@ -350,7 +367,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother MFC-L8650CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
