@@ -28,11 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
-OutputPath=Project Outputs for FMC_SDR
-=======
 OutputPath=
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -195,11 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WFHUJBKQ
 
 [Document10]
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 DocumentPath=PCB-Layout\FMC_SDR1.PcbLib
-=======
-DocumentPath=FMC_SDR_SCH.OutJob
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -213,23 +205,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 DocumentUniqueId=RMPSVPGN
 
 [Document11]
 DocumentPath=Schematics\GroundsCoupling.SchDoc
-=======
-DocumentUniqueId=
-
-[Document11]
-DocumentPath=PCB-Layout\FMC_SDR1.PcbLib
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -237,8 +222,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
-DocumentUniqueId=EUMHQDHP
+DocumentUniqueId=
 
 [Document12]
 DocumentPath=Project Outputs for FMC_SDR\BOM.OutJob
@@ -276,18 +260,12 @@ DocumentUniqueId=
 
 [Document14]
 DocumentPath=Project Outputs for FMC_SDR\Manufacturing.OutJob
-=======
-DocumentUniqueId=RMPSVPGN
-
-[Document12]
-DocumentPath=Schematics\GroundsCoupling.SchDoc
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -295,10 +273,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EUMHQDHP
+DocumentUniqueId=RMPSVPGN
 
 [GeneratedDocument1]
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 DocumentPath=Project Outputs for FMC_SDR\BOM\Bill of Materials-FMC_SDR.xls
 DItemRevisionGUID=
 
@@ -384,9 +361,6 @@ DItemRevisionGUID=
 
 [GeneratedDocument22]
 DocumentPath=Project Outputs for FMC_SDR\Pick Place\Pick Place for FMC_SDR.txt
-=======
-DocumentPath=Project Outputs for FMC_SDR\Design Rule Check - FMC_SDR.html
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 DItemRevisionGUID=
 
 [Configuration1]
@@ -400,11 +374,8 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-<<<<<<< HEAD:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
-OutputDir=Project Outputs for FMC_SDR
 =======
 OutputDir=
->>>>>>> upstream/master:FMC_SDR/FMC_SDR/FMC_SDR.PrjPcb
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -515,7 +486,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L8650CDW
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
