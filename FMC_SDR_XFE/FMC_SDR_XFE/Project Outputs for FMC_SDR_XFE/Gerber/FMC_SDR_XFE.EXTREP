@@ -1,9 +1,22 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: FMC_SDR_XFE.GBR   03.03.2020  18:58:42
+Gerber File Extension Report For: FMC_SDR_XFE.GBR   03.03.2020  22:17:32
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top                                     
+.G1                 Int1 [GND]                              
+.G2                 Int2 [shielded signals]                 
+.G3                 Int3 [GND]                              
+.G4                 Int4 [PWR]                              
+.G5                 Int5 [signals]                          
+.G6                 Int6 [PWR]                              
+.GBL                Bottom                                  
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GM1                Mechanical 1                            
 ------------------------------------------------------------------------------------------
