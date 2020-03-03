@@ -205,7 +205,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TCAFTRMG
+DocumentUniqueId=WLHFSTIA
 
 [Document11]
 DocumentPath=LT3080.SchDoc
@@ -327,40 +327,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AOTUXFNC
 
 [Document18]
-DocumentPath=FMC_SDR_XFE.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document19]
-DocumentPath=FMC_SDR_XFE1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
 DocumentPath=Project Outputs for FMC_SDR_XFE\BOM.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EWAIQQMH
 
-[Document21]
+[Document19]
 DocumentPath=Project Outputs for FMC_SDR_XFE\Manufacturing.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document20]
 DocumentPath=Project Outputs for FMC_SDR_XFE\SCH_PDF.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
