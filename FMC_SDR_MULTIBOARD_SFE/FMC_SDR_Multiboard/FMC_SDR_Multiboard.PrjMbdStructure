@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=FMC_SDR_Multiboard.MbsDoc|Kind=Multi-board Schematic Module|Designator=B2|Source=..\..\FMC_SDR_LFFE\FMC_SDR_LFFE\FMC_SDR_LFFE.PrjPcb
+Record=SubProject|SourceDocument=FMC_SDR_Multiboard.MbsDoc|ProjectPath=..\..\FMC_SDR_LFFE\FMC_SDR_LFFE\FMC_SDR_LFFE.PrjPcb
+Record=DiagramHierarchy|SourceDocument=FMC_SDR_Multiboard.MbsDoc|Kind=Multi-board Schematic Module|Designator=B1|Source=..\..\FMC_SDR_PCB\FMC_SDR.PrjPCB
+Record=SubProject|SourceDocument=FMC_SDR_Multiboard.MbsDoc|ProjectPath=..\..\FMC_SDR_PCB\FMC_SDR.PrjPCB

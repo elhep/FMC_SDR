@@ -1,0 +1,142 @@
+Protel Design System Design Rule Check
+PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR\FMC_SDR\PCB-Layout\FMC_SDR.PcbDoc
+Date     : 03.03.2020
+Time     : 13:37:38
+
+Processing Rule : Clearance Constraint (Gap=0.14mm) (InNetClass('50R_class') and IsVia),(IsTrack)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.14mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InNamedPolygon('balancingT')),(IsKeepOut)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (not IsKeepOut),(InNamedPolygon('balancingT'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InComponentClass('RF_50R')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.14mm) ((InDifferentialPairClass('All Differential Pairs'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.11mm) (Max=10mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.2mm) (WithinRoom('BGA1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('50R_class'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.5mm) (InNetClass('midPower'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=1.5mm) (InNetClass('highPower'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.15mm) (MaxHoleWidth=8mm) (PreferredHoleWidth=0.15mm) (MinWidth=0.4mm) (MaxWidth=10mm) (PreferedWidth=0.4mm) (WithinRoom('BGA1'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=8mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.5mm) (MaxWidth=10mm) (PreferedWidth=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.2mm) (Max=0.2mm) (Prefered=0.2mm)  and Width Constraints (Min=0.12mm) (Max=0.18mm) (Prefered=0.12mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Top Solder') OR OnLayer('Bottom Solder')))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Vias Under SMD Constraint (Allowed=Allowed) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 1mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = Infinite ) (InComponentClass('holes')),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Net Antennae (Tolerance=0mm) (All)
+   Waived Violation between Net Antennae: Via (101.803mm,35mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (102.603mm,31.8mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (102.603mm,32.6mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (102.603mm,33.4mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (102.603mm,34.2mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (118.695mm,10.266mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (118.695mm,8.996mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (94.603mm,29.4mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (94.603mm,30.2mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (97.003mm,36.6mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+   Waived Violation between Net Antennae: Via (97.803mm,36.6mm) from Top to Bottom Waived by Stanis³aw Hanasz at 14.02.2020 15:24:48
+Waived Violations :11
+
+Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 02.03.2020 07:36:33
+Waived Violations :1
+
+Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 1mm ) (All),(All) 
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Component J2-VITA 57 (120.6mm,32.491mm) on Top And Small Component B25-Plated Hole (118.6mm,1mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 18:50:34
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Small Component B12-Plated Hole (85mm,22.5mm) on Top And SMT Small Component BSC4-0603 Female (83.225mm,20.035mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 18:50:34
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Small Component B19-Plated Hole (64mm,3.5mm) on Top And Small Component B32-Plated Hole (60.7mm,4.3mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 18:50:34
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between Small Component B23-Plated Hole (64mm,60.05mm) on Top And Small Component B33-Plated Hole (60.7mm,59.3mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 18:50:34
+Waived Violations :4
+
+
+Violations Detected : 0
+Waived Violations : 16
+Time Elapsed        : 00:00:42
