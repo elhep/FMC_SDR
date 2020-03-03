@@ -1,0 +1,23 @@
+DRC Rules Export File for PCB: D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=balancing1|Scope=Board|Minimum=39.37
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_50R_GNDvias|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint_4|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint_3|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=ClearanceSCHpolygon|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint_2|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint_1|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_50R_components|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width_highPower|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_midPower|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_Diff|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width_50R|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_50R_EXT|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_50R_INT|Scope=Board|Minimum=39.37
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -1,0 +1,430 @@
+Altium Designer Pick and Place Locations
+D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\Project Outputs for FMC_SDR_XFE\Pick Place\Pick Place for FMC_SDR_XFE.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03.03.20
+Time:       13:16
+Revision:   0525db9c2e5c9b9693491075c1a89acfebd66de6
+Variant:    No variations
+Units used: mil
+
+Designator       Comment                     Layer       Footprint                      Center-X(mil) Center-Y(mil) Rotation Description                                                          
+R120             0                           TopLayer    RESC1608X55N                   1319.882      1264.764      270      Resistor                                                             
+R119             0                           TopLayer    RESC1608X55N                   1096.457      1227.362      360      Resistor                                                             
+R118             0                           BottomLayer RESC1608X55N                   2287.402      1109.252      180      Resistor                                                             
+R117_BUCK_5V5    0                           BottomLayer RESC1608X55N                   1917.323      1937.008      180      Resistor                                                             
+R117_BUCK_3V8    0                           BottomLayer RESC1608X55N                   2278.543      1438.976      180      Resistor                                                             
+C53              2.2uF                       TopLayer    CAPC2012X140N                  759.842       807.087       180      "Non-polarised capacitor"                                            
+R108             Undefined                   BottomLayer RESC3216X65N                   564.961       936.024       360      Resistor                                                             
+R116             Undefined                   TopLayer    RESC1005X40N                   2409.449      1045.276      360      Resistor                                                             
+R114             0                           BottomLayer RESC3216X65N                   782.480       807.087       360      Resistor                                                             
+R112             0                           BottomLayer RESC3216X65N                   391.732       813.976       360      Resistor                                                             
+R111             1k96                        TopLayer    RESC1608X55N                   768.701       710.630       90       "Resistor - 0.1%"                                                    
+R110             499                         BottomLayer RESC1608X55N                   737.205       742.126       180      "Resistor - 0.1%"                                                    
+R109             49k9                        BottomLayer RESC1608X55N                   598.425       711.614       90       "Resistor - 0.1%"                                                    
+R107             0                           TopLayer    RESC1005X40N                   2428.150      991.142       90       Resistor                                                             
+R106             Undefined                   BottomLayer RESC1005X40N                   1762.795      185.039       270      Resistor                                                             
+R104             Undefined                   BottomLayer RESC1005X40N                   1237.205      2124.016      90       Resistor                                                             
+R103             0.1                         TopLayer    RESC1005X40N                   718.157       2236.220      90       "Resistor - 1%"                                                      
+R102             0.1                         TopLayer    RESC1005X40N                   719.488       2511.811      270      "Resistor - 1%"                                                      
+J14              U.FL                        BottomLayer HIROSE_U.FL-R-SMT-1(10)        1770.669      276.083       180      ""                                                                   
+J13              U.FL                        BottomLayer HIROSE_U.FL-R-SMT-1(10)        1152.067      2102.362      270      ""                                                                   
+IC26             LT3080EDD#PBF               BottomLayer SON50P300X300X80-9N-R175X248   561.024       823.958       180      "Adjustable 1.1A Single Resistor Low Dropout Regulator"              
+C50              2.2uF                       TopLayer    CAPC2012X140N                  622.047       807.087       0        "Non-polarised capacitor"                                            
+C37              Undefined                   TopLayer    CAPC1005X55N                   2570.866      762.795       270      "Non-polarised capacitor"                                            
+BSC6             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1326.929      360      ""                                                                   
+BSC5             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1862.205      360      ""                                                                   
+C216             1nF                         BottomLayer CAPC1005X55N                   1685.039      1915.354      180      "Non-polarised capacitor"                                            
+R45              1M                          BottomLayer RESC1005X40N                   245.079       1824.803      270      "Resistor - 1%"                                                      
+J3               SMA                         TopLayer    TELEGARTNER_J01151A0451        296.260       2277.559      180      ""                                                                   
+J1               SMA                         TopLayer    TELEGARTNER_J01151A0451        295.276       486.221       180      ""                                                                   
+IC1_PreampRX1    LEE-39+                     TopLayer    MINI-CIRCUITS_FG873            1622.047      2301.772      360      "Monolithic Amplifier"                                               
+C65              10pF                        BottomLayer CAPC1005X55N                   2120.079      841.535       180      "Non-polarised capacitor"                                            
+C64              10pF                        BottomLayer CAPC1005X55N                   2120.079      880.905       180      "Non-polarised capacitor"                                            
+C63              10pF                        BottomLayer CAPC1005X55N                   2120.079      802.165       180      "Non-polarised capacitor"                                            
+C59              10pF                        BottomLayer CAPC1005X55N                   2120.079      762.795       180      "Non-polarised capacitor"                                            
+C58              10pF                        BottomLayer CAPC1005X55N                   2120.079      684.055       180      "Non-polarised capacitor"                                            
+C56              10pF                        BottomLayer CAPC1005X55N                   2120.079      723.425       180      "Non-polarised capacitor"                                            
+C55              10pF                        BottomLayer CAPC1005X55N                   2120.079      644.685       180      "Non-polarised capacitor"                                            
+C54              10pF                        BottomLayer CAPC1005X55N                   2120.079      605.315       180      "Non-polarised capacitor"                                            
+C52              10pF                        BottomLayer CAPC1005X55N                   2120.079      565.945       180      "Non-polarised capacitor"                                            
+C38              10pF                        BottomLayer CAPC1005X55N                   2120.078      526.578       180      "Non-polarised capacitor"                                            
+C219             1nF                         BottomLayer CAPC1005X55N                   1646.654      1186.024      360      "Non-polarised capacitor"                                            
+C218             1nF                         BottomLayer CAPC1005X55N                   1645.669      1381.890      360      "Non-polarised capacitor"                                            
+C217             1nF                         BottomLayer CAPC1005X55N                   1687.008      1145.669      180      "Non-polarised capacitor"                                            
+C215             1nF                         BottomLayer CAPC1005X55N                   1689.961      1424.213      180      "Non-polarised capacitor"                                            
+C214             1nF                         BottomLayer CAPC1005X55N                   356.299       1714.567      180      "Non-polarised capacitor"                                            
+C213             100pF                       BottomLayer CAPC1005X55N                   1686.024      1765.748      180      "Non-polarised capacitor"                                            
+C212             1nF                         BottomLayer CAPC1005X55N                   1138.780      1578.740      270      "Non-polarised capacitor"                                            
+C211             100pF                       BottomLayer CAPC1005X55N                   1687.008      1065.945      180      "Non-polarised capacitor"                                            
+C210             1nF                         BottomLayer CAPC1005X55N                   355.315       1801.181      180      "Non-polarised capacitor"                                            
+C209             100pF                       BottomLayer CAPC1005X55N                   742.126       1579.724      270      "Non-polarised capacitor"                                            
+C208             1nF                         BottomLayer CAPC1005X55N                   822.835       1579.724      270      "Non-polarised capacitor"                                            
+C207             100pF                       BottomLayer CAPC1005X55N                   506.890       1579.724      270      "Non-polarised capacitor"                                            
+C206             1nF                         BottomLayer CAPC1005X55N                   1685.039      1710.630      180      "Non-polarised capacitor"                                            
+C205             100pF                       BottomLayer CAPC1005X55N                   1687.008      1303.150      180      "Non-polarised capacitor"                                            
+C204             1nF                         BottomLayer CAPC1005X55N                   1375.000      1578.740      270      "Non-polarised capacitor"                                            
+C199             100pF                       BottomLayer CAPC1005X55N                   1217.520      1578.740      270      "Non-polarised capacitor"                                            
+C198             1nF                         BottomLayer CAPC1005X55N                   625.000       1580.709      270      "Non-polarised capacitor"                                            
+C189             1nF                         BottomLayer CAPC1005X55N                   548.228       1542.323      90       "Non-polarised capacitor"                                            
+C187             100pF                       BottomLayer CAPC1005X55N                   317.913       1757.874      360      "Non-polarised capacitor"                                            
+C186             1nF                         BottomLayer CAPC1005X55N                   269.685       2021.654      90       "Non-polarised capacitor"                                            
+C178             1nF                         BottomLayer CAPC1005X55N                   316.929       1914.370      360      "Non-polarised capacitor"                                            
+C196             1nF                         BottomLayer CAPC1005X55N                   1259.843      1542.323      90       "Non-polarised capacitor"                                            
+C194             100pF                       BottomLayer CAPC1005X55N                   1646.654      1105.315      360      "Non-polarised capacitor"                                            
+C193             1nF                         BottomLayer CAPC1005X55N                   1330.709      47.244        270      "Non-polarised capacitor"                                            
+C190             100pF                       BottomLayer CAPC1005X55N                   733.268       47.244        270      "Non-polarised capacitor"                                            
+C185             1uF                         TopLayer    CAPC3216X140N                  1678.150      688.976       90       "Non-polarised capacitor"                                            
+C184             100pF                       BottomLayer CAPC1005X55N                   1409.449      47.244        270      "Non-polarised capacitor"                                            
+C181             1nF                         BottomLayer CAPC1005X55N                   1805.118      47.244        270      "Non-polarised capacitor"                                            
+C180             1uF                         TopLayer    CAPC3216X140N                  1599.606      1181.102      90       "Non-polarised capacitor"                                            
+C179             100pF                       BottomLayer CAPC1005X55N                   417.323       46.260        270      "Non-polarised capacitor"                                            
+C177             1uF                         TopLayer    CAPC3216X140N                  123.031       877.953       90       "Non-polarised capacitor"                                            
+C176             100pF                       BottomLayer CAPC1005X55N                   1883.858      46.260        270      "Non-polarised capacitor"                                            
+C175             1nF                         BottomLayer CAPC1005X55N                   2100.394      274.606       360      "Non-polarised capacitor"                                            
+C174             1uF                         TopLayer    CAPC3216X140N                  627.953       96.457        360      "Non-polarised capacitor"                                            
+C173             100pF                       BottomLayer CAPC1005X55N                   497.047       47.244        270      "Non-polarised capacitor"                                            
+C172             1nF                         BottomLayer CAPC1005X55N                   812.008       46.260        270      "Non-polarised capacitor"                                            
+C171             1uF                         TopLayer    CAPC3216X140N                  276.575       119.094       180      "Non-polarised capacitor"                                            
+C170             100pF                       BottomLayer CAPC1005X55N                   160.433       260.827       180      "Non-polarised capacitor"                                            
+C169             1nF                         BottomLayer CAPC1005X55N                   160.433       205.709       180      "Non-polarised capacitor"                                            
+C168             1uF                         TopLayer    CAPC3216X140N                  977.362       217.520       180      "Non-polarised capacitor"                                            
+C167             100pF                       BottomLayer CAPC1005X55N                   664.370       1544.291      90       "Non-polarised capacitor"                                            
+C166             1nF                         BottomLayer CAPC1005X55N                   466.536       1543.307      90       "Non-polarised capacitor"                                            
+C165             1uF                         TopLayer    CAPC3216X140N                  265.748       1724.409      270      "Non-polarised capacitor"                                            
+C164             100pF                       BottomLayer CAPC1005X55N                   1335.630      1542.323      90       "Non-polarised capacitor"                                            
+C163             1nF                         BottomLayer CAPC1005X55N                   1533.465      1543.307      90       "Non-polarised capacitor"                                            
+C162             1uF                         TopLayer    CAPC3216X140N                  1928.150      2558.071      135      "Non-polarised capacitor"                                            
+C161             100pF                       BottomLayer CAPC1005X55N                   1645.669      1341.535      360      "Non-polarised capacitor"                                            
+C160             1nF                         BottomLayer CAPC1005X55N                   2107.284      2472.441      360      "Non-polarised capacitor"                                            
+C158             100pF                       BottomLayer CAPC1005X55N                   1865.158      2060.039      90       "Non-polarised capacitor"                                            
+C156             1uF                         TopLayer    CAPC3216X140N                  2864.173      1525.591      360      "Non-polarised capacitor"                                            
+C155             100pF                       BottomLayer CAPC1005X55N                   1684.055      1965.551      180      "Non-polarised capacitor"                                            
+C154             1nF                         BottomLayer CAPC1005X55N                   1427.165      2681.102      90       "Non-polarised capacitor"                                            
+C153             1uF                         TopLayer    CAPC3216X140N                  1582.677      1915.791      90       "Non-polarised capacitor"                                            
+C152             100pF                       BottomLayer CAPC1005X55N                   1347.441      2681.102      90       "Non-polarised capacitor"                                            
+C151             1nF                         BottomLayer CAPC1005X55N                   835.630       2681.102      90       "Non-polarised capacitor"                                            
+C150             1uF                         TopLayer    CAPC3216X140N                  1362.205      2585.630      180      "Non-polarised capacitor"                                            
+C149             100pF                       BottomLayer CAPC1005X55N                   755.905       2681.102      90       "Non-polarised capacitor"                                            
+C148             1nF                         BottomLayer CAPC1005X55N                   441.929       2681.102      90       "Non-polarised capacitor"                                            
+C147             1uF                         TopLayer    CAPC3216X140N                  610.236       1630.906      180      "Non-polarised capacitor"                                            
+C146             100pF                       BottomLayer CAPC1005X55N                   519.685       2681.102      90       "Non-polarised capacitor"                                            
+C145             1nF                         BottomLayer CAPC1005X55N                   192.913       2556.102      180      "Non-polarised capacitor"                                            
+C144             1uF                         TopLayer    CAPC3216X140N                  1251.968      1639.764      360      "Non-polarised capacitor"                                            
+C143             100pF                       BottomLayer CAPC1005X55N                   2107.284      2314.961      360      "Non-polarised capacitor"                                            
+C142             1nF                         BottomLayer CAPC1005X55N                   1742.126      2681.102      90       "Non-polarised capacitor"                                            
+C140             100pF                       BottomLayer CAPC1005X55N                   1821.850      2681.102      90       "Non-polarised capacitor"                                            
+C139             1nF                         BottomLayer CAPC1005X55N                   1943.898      2060.039      90       "Non-polarised capacitor"                                            
+C138             1uF                         TopLayer    CAPC3216X140N                  305.118       2579.724      90       "Non-polarised capacitor"                                            
+C137             100pF                       BottomLayer CAPC1005X55N                   3206.850      1519.136      90       "Non-polarised capacitor"                                            
+C136             1nF                         BottomLayer CAPC1005X55N                   354.331       1958.661      180      "Non-polarised capacitor"                                            
+C134             100pF                       BottomLayer CAPC1005X55N                   354.331       2037.402      180      "Non-polarised capacitor"                                            
+C133             1nF                         BottomLayer CAPC1005X55N                   2107.284      2236.220      360      "Non-polarised capacitor"                                            
+C132             1uF                         TopLayer    CAPC3216X140N                  517.717       2576.772      90       "Non-polarised capacitor"                                            
+C131             100pF                       BottomLayer CAPC1005X55N                   192.913       2501.968      180      "Non-polarised capacitor"                                            
+C130             1nF                         BottomLayer CAPC1005X55N                   3155.669      1519.136      90       "Non-polarised capacitor"                                            
+C98              1uF                         TopLayer    CAPC3216X140N                  1599.409      1361.220      90       "Non-polarised capacitor"                                            
+C95              1uF                         TopLayer    CAPC3216X140N                  1469.488      1639.764      180      "Non-polarised capacitor"                                            
+R101             18k                         TopLayer    RESC1608X55N                   1336.614      1154.091      90       "Resistor - 1%"                                                      
+R100             45k3                        TopLayer    RESC1608X55N                   1336.880      1044.291      90       "Resistor - 0.1%"                                                    
+R99              18k                         TopLayer    RESC1608X55N                   1193.908      1493.110      180      "Resistor - 1%"                                                      
+IC25             LTM8074IY#PBF               TopLayer    BGA25C65P5X5_400X400X198       1220.473      1067.913      90       "40VIN, 1.2A Silent Switcher µModule Regulator"                      
+IC24             LTM8074IY#PBF               TopLayer    BGA25C65P5X5_400X400X198       1189.961      1376.102      90       "40VIN, 1.2A Silent Switcher µModule Regulator"                      
+C93              10uF                        TopLayer    CAPC2012X95N                   1226.378      1191.929      180      "Non-polarised capacitor"                                            
+C92              1uF                         TopLayer    CAPC2012X110N                  1099.295      1073.641      90       "Non-polarised capacitor"                                            
+C91              10uF                        TopLayer    CAPC2012X95N                   1311.024      1452.756      270      "Non-polarised capacitor"                                            
+C90              1uF                         TopLayer    CAPC2012X110N                  1062.008      1381.653      270      "Non-polarised capacitor"                                            
+R10              Undefined                   BottomLayer RESC3216X65N                   1102.362      1756.890      90       Resistor                                                             
+C40_BUCK_5V5     10uF                        TopLayer    CAPC2012X95N                   1736.220      1850.394      90       "Non-polarised capacitor"                                            
+IC21             TGA3042-SM                  TopLayer    QORVO_TGA3042-SM               738.121       487.275       180      "7-10.5GHz 4.5W GaN Power Amplifier"                                 
+R59_PreampLO_TX  43                          TopLayer    RESC1608X55N                   1579.725      311.024       180      "Resistor - 1%"                                                      
+L4_PreampLO_TX   0.5uH@200mA                 TopLayer    IND_MINI-CIRCUITS_GU1604       1722.441      298.228       180      "50 Ohms, 50 to 8200 MHz RF Choke"                                   
+IC23_PreampLO_TX LEE-39+                     TopLayer    MINI-CIRCUITS_FG873            1601.968      166.339       360      "Monolithic Amplifier"                                               
+C88              100pF                       TopLayer    CAPC1005X55N                   1237.205      2124.016      90       "Non-polarised capacitor"                                            
+C87              100pF                       TopLayer    CAPC1005X55N                   2003.937      2415.036      360      "Non-polarised capacitor"                                            
+C82_PreampLO_TX  100pF                       TopLayer    CAPC1005X55N                   1469.488      167.323       360      "Non-polarised capacitor"                                            
+C81_PreampLO_TX  100pF                       TopLayer    CAPC1005X55N                   1745.079      166.339       360      "Non-polarised capacitor"                                            
+C80_PreampLO_TX  10uF                        TopLayer    CAPC3216X180N                  1434.055      304.921       360      "Non-polarised capacitor"                                            
+C79_PreampLO_TX  1nF                         TopLayer    CAPC1005X55N                   1472.441      238.189       360      "Non-polarised capacitor"                                            
+C78_PreampLO_TX  100pF                       TopLayer    CAPC1005X55N                   1474.409      365.158       360      "Non-polarised capacitor"                                            
+C10_PreampRX2    100pF                       TopLayer    CAPC1005X55N                   1739.965      2359.252      90       "Non-polarised capacitor"                                            
+FL5              "DC to 2400MHz"             TopLayer    FIL_MINI-CIRCUITS_FV1206       1373.033      2382.873      315      "50 Ohm DC to 2400MHz Low Pass Filter"                               
+C86              1uF                         TopLayer    CAPC1608X87N                   945.866       809.055       180      "Non-polarised capacitor"                                            
+C85              1uF                         TopLayer    CAPC1608X87N                   1044.291      864.173       270      "Non-polarised capacitor"                                            
+C84              10uF                        TopLayer    CAPC3225X280N                  1144.719      861.221       90       "Non-polarised capacitor"                                            
+C83              10uF                        TopLayer    CAPC3225X280N                  1276.575      862.205       90       "Non-polarised capacitor"                                            
+R34              10k                         TopLayer    RESC1005X40N                   1599.409      618.110       90       "Resistor - 1%"                                                      
+L4_PreampTX      0.5uH@200mA                 TopLayer    IND_MINI-CIRCUITS_GU1604       1214.410      332.874       270      "50 Ohms, 50 to 8200 MHz RF Choke"                                   
+IC23_PreampTX    LEE-39+                     TopLayer    MINI-CIRCUITS_FG873            1361.220      458.661       180      "Monolithic Amplifier"                                               
+C82_PreampTX     100pF                       TopLayer    CAPC1005X55N                   1500.984      458.661       180      "Non-polarised capacitor"                                            
+C81_PreampTX     100pF                       TopLayer    CAPC1005X55N                   1206.693      458.661       180      "Non-polarised capacitor"                                            
+C80_PreampTX     10uF                        TopLayer    CAPC3216X180N                  1211.614      152.559       90       "Non-polarised capacitor"                                            
+C79_PreampTX     1nF                         TopLayer    CAPC1005X55N                   1106.346      158.465       90       "Non-polarised capacitor"                                            
+C78_PreampTX     100pF                       TopLayer    CAPC1005X55N                   1154.528      196.850       90       "Non-polarised capacitor"                                            
+R98              0                           TopLayer    RESC3216X65N                   2330.709      1208.661      270      Resistor                                                             
+R95              0                           TopLayer    RESC3216X65N                   2163.910      1854.331      360      Resistor                                                             
+R37              0                           BottomLayer RESC3216X65N                   253.937       867.126       270      Resistor                                                             
+R97              12k                         TopLayer    RESC1005X40N                   1464.567      1211.614      180      "Resistor - 1%"                                                      
+R94              38k3                        TopLayer    RESC1005X40N                   1393.701      1211.614      180      "Resistor - 1%"                                                      
+R93              38k3                        TopLayer    RESC1005X40N                   574.691       1874.960      90       "Resistor - 1%"                                                      
+R90              0                           TopLayer    RESC1608X55N                   441.929       1855.315      270      Resistor                                                             
+R89              0                           TopLayer    RESC1608X55N                   915.283       1856.456      90       Resistor                                                             
+R87              12k                         TopLayer    RESC1005X40N                   1879.921      1587.795      90       "Resistor - 1%"                                                      
+R86              22k                         TopLayer    RESC1005X40N                   1879.921      1657.480      90       "Resistor - 1%"                                                      
+R85              12k                         TopLayer    RESC1005X40N                   1809.055      1347.798      360      "Resistor - 1%"                                                      
+R84              22k                         TopLayer    RESC1005X40N                   1892.661      1346.645      360      "Resistor - 1%"                                                      
+R83              0                           TopLayer    RESC1608X55N                   1842.464      1470.236      360      Resistor                                                             
+R70              0                           TopLayer    RESC1608X55N                   1955.709      1100.394      90       Resistor                                                             
+IC17             LT1763CS8#PBF               TopLayer    SOIC127P600X175-8N             738.533       1819.935      360      "1.22V to 20V 500mA, Low Noise, LDO Adjustable Micropower Regulator" 
+C77              10nF                        TopLayer    CAPC1005X55N                   1524.606      1194.882      270      "Non-polarised capacitor"                                            
+C76              10uF                        TopLayer    CAPC2012X95N                   1421.260      1153.543      180      "Non-polarised capacitor"                                            
+C75              1uF                         BottomLayer CAPC1608X87N                   1423.228      1449.803      270      "Non-polarised capacitor"                                            
+C74              10nF                        TopLayer    CAPC1005X55N                   555.842       1744.935      180      "Non-polarised capacitor"                                            
+C73              10uF                        TopLayer    CAPC2012X95N                   518.630       1847.401      90       "Non-polarised capacitor"                                            
+C72              1uF                         TopLayer    CAPC1608X87N                   975.323       1855.275      270      "Non-polarised capacitor"                                            
+C71              10nF                        TopLayer    CAPC1005X55N                   1862.205      1535.433      180      "Non-polarised capacitor"                                            
+C70              10uF                        TopLayer    CAPC2012X95N                   1822.835      1629.921      90       "Non-polarised capacitor"                                            
+C69              10nF                        TopLayer    CAPC1005X55N                   1732.228      1363.937      90       "Non-polarised capacitor"                                            
+C68              10uF                        TopLayer    CAPC2012X95N                   1845.473      1403.543      360      "Non-polarised capacitor"                                            
+C11              1uF                         BottomLayer CAPC1608X87N                   1850.394      1012.795      0        "Non-polarised capacitor"                                            
+J6               Coax_1Male_1Shield          BottomLayer ROSENBERGER_19S103-400L5       1489.177      795.079       180      ""                                                                   
+R7               Undefined                   TopLayer    RESC1005X40N                   1145.669      484.252       270      Resistor                                                             
+R82              0                           TopLayer    RESC3216X65N                   330.709       1430.118      360      Resistor                                                             
+R81              Undefined                   BottomLayer RESC3216X65N                   805.118       1489.173      180      Resistor                                                             
+R80              0                           BottomLayer RESC3216X65N                   1364.173      1349.409      360      Resistor                                                             
+R59_PreampTX     43                          TopLayer    RESC1608X55N                   1106.299      247.047       270      "Resistor - 1%"                                                      
+R62              18k                         TopLayer    RESC1608X55N                   2169.291      1164.249      180      "Resistor - 1%"                                                      
+R60              45k3                        TopLayer    RESC1608X55N                   2220.472      923.335       360      "Resistor - 0.1%"                                                    
+R56              0                           TopLayer    RESC1608X55N                   1078.740      980.315       180      Resistor                                                             
+R52              40k2                        TopLayer    RESC2012X60N                   1226.378      1256.890      360      "Resistor - 1%"                                                      
+R50              Undefined                   TopLayer    RESC1608X55N                   2023.425      988.189       360      Resistor                                                             
+R33              0                           TopLayer    RESC1608X55N                   2088.994      926.181       360      Resistor                                                             
+IC13             LTM8074IY#PBF               TopLayer    BGA25C65P5X5_400X400X198       2164.299      1042.898      90       "40VIN, 1.2A Silent Switcher µModule Regulator"                      
+C42              10uF                        TopLayer    CAPC2012X95N                   2304.063      1034.039      270      "Non-polarised capacitor"                                            
+C41              1uF                         TopLayer    CAPC2012X110N                  2044.291      1091.535      270      "Non-polarised capacitor"                                            
+R36              0                           TopLayer    RESC1005X40N                   1686.024      458.661       0        Resistor                                                             
+C60              1uF                         TopLayer    CAPC3216X140N                  800.197       1631.890      180      "Non-polarised capacitor"                                            
+C57              1uF                         TopLayer    CAPC3216X140N                  264.764       1903.543      90       "Non-polarised capacitor"                                            
+C51              1uF                         TopLayer    CAPC3216X140N                  2054.134      394.685       90       "Non-polarised capacitor"                                            
+FL1              "DC to 12000MHz"            TopLayer    FIL_MINI-CIRCUITS_FV1206-4     541.269       486.290       180      "50 Ohm DC to 12000MHz Low Pass Filter"                              
+R79              510                         TopLayer    RESC1608X55N                   2545.276      1794.291      270      "Resistor - 1%"                                                      
+R78              2k7                         TopLayer    RESC1608X55N                   2601.817      1794.291      90       "Resistor - 1%"                                                      
+R77              75k                         TopLayer    RESC1608X55N                   2791.339      1712.598      180      "Resistor - 1%"                                                      
+R76              75k                         TopLayer    RESC1608X55N                   2677.165      1712.598      360      "Resistor - 1%"                                                      
+R75              49R9                        TopLayer    RESC1005X40N                   2650.591      1259.843      180      "Resistor - 1%"                                                      
+R74              49R9                        TopLayer    RESC1005X40N                   2487.205      746.063       360      "Resistor - 1%"                                                      
+R73              49R9                        TopLayer    RESC1005X40N                   2571.850      1259.843      360      "Resistor - 1%"                                                      
+R72              0                           TopLayer    RESC1005X40N                   2609.252      1304.134      180      Resistor                                                             
+R71              49R9                        TopLayer    RESC1005X40N                   2811.010      719.627       180      "Resistor - 1%"                                                      
+R69              0                           TopLayer    RESC1005X40N                   2657.480      700.787       360      Resistor                                                             
+R68              Undefined                   TopLayer    RESC1005X40N                   2584.646      700.787       360      Resistor                                                             
+R67              0                           TopLayer    RESC1005X40N                   3152.559      1883.858      360      Resistor                                                             
+R66              0                           TopLayer    RESC1005X40N                   1243.688      2463.465      0        Resistor                                                             
+R65              0                           TopLayer    RESC1005X40N                   1016.974      2375.087      360      Resistor                                                             
+R64              Undefined                   TopLayer    RESC1005X40N                   1187.992      2483.465      270      Resistor                                                             
+R58_PreampRX1    43                          TopLayer    RESC1608X55N                   1494.416      2494.864      90       "Resistor - 1%"                                                      
+R58_PreampRX2    43                          TopLayer    RESC1608X55N                   1899.606      2159.449      180      "Resistor - 1%"                                                      
+R58_PreampLO_RX  43                          TopLayer    RESC1608X55N                   1486.220      2157.480      270      "Resistor - 1%"                                                      
+R57              Undefined                   BottomLayer RESC1608X55N                   1199.803      968.504       180      Resistor                                                             
+R55              Undefined                   TopLayer    RESC1005X40N                   963.825       2356.583      90       Resistor                                                             
+R54              Undefined                   TopLayer    RESC1005X40N                   3097.441      1865.158      90       Resistor                                                             
+R53              5R1                         TopLayer    RESC1005X40N                   696.759       313.819       90       "Resistor - 1%"                                                      
+R51_BUCK_5V5     18k                         TopLayer    RESC1608X55N                   2035.433      1785.433      180      "Resistor - 1%"                                                      
+R51_BUCK_3V8     18k                         TopLayer    RESC1608X55N                   2168.153      1470.473      180      "Resistor - 1%"                                                      
+R49              5R1                         TopLayer    RESC1005X40N                   735.119       313.819       90       "Resistor - 1%"                                                      
+R48              5R1                         TopLayer    RESC1005X40N                   773.480       313.819       90       "Resistor - 1%"                                                      
+R47              5R1                         TopLayer    RESC1005X40N                   811.840       313.819       90       "Resistor - 1%"                                                      
+R46              5R1                         TopLayer    RESC1005X40N                   850.200       313.819       90       "Resistor - 1%"                                                      
+R44              0                           TopLayer    RESC1005X40N                   1969.488      532.480       90       Resistor                                                             
+R43              27k                         TopLayer    RESC1005X40N                   612.114       313.819       90       "Resistor - 1%"                                                      
+R42              5R1                         TopLayer    RESC1005X40N                   869.095       383.858       180      "Resistor - 1%"                                                      
+R41              27k                         TopLayer    RESC1005X40N                   663.935       313.819       90       "Resistor - 1%"                                                      
+R38              Undefined                   BottomLayer RESC3216X65N                   1079.725      1226.378      90       Resistor                                                             
+R35              Undefined                   TopLayer    RESC1608X55N                   1631.890      558.071       180      Resistor                                                             
+R32              Undefined                   TopLayer    RESC1608X55N                   1173.595      611.402       180      Resistor                                                             
+R31              0                           TopLayer    RESC1608X55N                   1047.947      611.402       180      Resistor                                                             
+R30              Undefined                   TopLayer    RESC1608X55N                   531.496       2035.433      90       Resistor                                                             
+R29              10k                         TopLayer    RESC1005X40N                   796.260       1972.441      270      "Resistor - 1%"                                                      
+R28              Undefined                   TopLayer    RESC1608X55N                   1988.189      1196.850      360      Resistor                                                             
+R27              Undefined                   TopLayer    RESC1608X55N                   776.575       2064.961      180      Resistor                                                             
+R26              0                           TopLayer    RESC1608X55N                   1021.654      2034.449      270      Resistor                                                             
+R25              Undefined                   TopLayer    RESC1005X40N                   2860.019      1617.219      90       Resistor                                                             
+R21              0                           BottomLayer RESC3216X65N                   188.021       1601.772      90       Resistor                                                             
+R20              0                           TopLayer    RESC1608X55N                   2104.331      1240.158      360      Resistor                                                             
+R19              62k                         TopLayer    RESC2012X60N                   2225.918      1233.269      360      "Resistor - 1%"                                                      
+R11              40k2                        TopLayer    RESC2012X60N                   1812.008      1984.252      180      "Resistor - 1%"                                                      
+R9               0                           TopLayer    RESC1005X40N                   3179.448      1281.407      360      Resistor                                                             
+R8               0                           TopLayer    RESC1005X40N                   1076.772      486.221       360      Resistor                                                             
+R6               Undefined                   TopLayer    RESC1005X40N                   1911.417      513.780       360      Resistor                                                             
+R5               Undefined                   TopLayer    RESC1005X40N                   3178.658      1244.990      180      Resistor                                                             
+R4               Undefined                   TopLayer    RESC1005X40N                   2764.885      1617.650      90       Resistor                                                             
+R3               Undefined                   TopLayer    RESC1005X40N                   2813.113      1635.723      360      Resistor                                                             
+P3               50k                         TopLayer    TRIM_BOURNS_3223W              1492.126      615.748       360      "Trimming Potentiometer"                                             
+P2               50k                         TopLayer    TRIM_BOURNS_3223W              913.386       2004.921      180      "Trimming Potentiometer"                                             
+OSC1             20MHZ                       TopLayer    OSC_KYOCERA_KT7050A            2987.077      1336.018      270      "Oscillator KYOCERA"                                                 
+L3               15nH                        TopLayer    IND_COILCRAFT_0402DC           2523.411      816.084       180      "Inductor With Core"                                                 
+L2               15nH                        TopLayer    IND_COILCRAFT_0402DC           2583.450      816.084       360      "Inductor With Core"                                                 
+L1_PreampRX1     0.5uH@200mA                 TopLayer    IND_MINI-CIRCUITS_GU1604       1618.669      2487.684      180      "50 Ohms, 50 to 8200 MHz RF Choke"                                   
+L1_PreampRX2     0.5uH@200mA                 TopLayer    IND_MINI-CIRCUITS_GU1604       1995.079      2281.496      360      "50 Ohms, 50 to 8200 MHz RF Choke"                                   
+L1_PreampLO_RX   0.5uH@200mA                 TopLayer    IND_MINI-CIRCUITS_GU1604       1372.148      2109.689      90       "50 Ohms, 50 to 8200 MHz RF Choke"                                   
+J12              "Header 4"                  TopLayer    SAMTEC_HW-04-15-L-S-400-150    2418.307      2008.858      360      "Connector 4 Male"                                                   
+J11              U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        2380.727      729.755       90       ""                                                                   
+J10              U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        1187.992      2576.450      360      ""                                                                   
+J9               U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        963.825       2268.493      180      ""                                                                   
+J8               U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        3097.441      1772.146      180      ""                                                                   
+J4               U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        1855.315      594.980       360      ""                                                                   
+J2               Coax_1Male_1Shield          BottomLayer ROSENBERGER_19S103-400L5       1866.632      802.953       180      ""                                                                   
+IC22             INA105KU                    TopLayer    SOIC127P600X175-8N             2734.252      1882.874      90       "Precision, Unity-Gain Differential Amplifier"                       
+IC20             QPA2609                     TopLayer    QORVO_QPA2609                  718.746       2377.252      0        "7-14GHz GaAs Low Noise Amplifier"                                   
+IC16             YAT-3+                      TopLayer    MINI-CIRCUITS_MC1630           1366.142      168.307       360      "DC to 18GHz, 2W, 50 Ohm, 4dB Attenuator"                            
+IC15             QCS-83+                     TopLayer    MINI-CIRCUITS_GE0805C-1        2735.616      751.123       90       "2 Way-90° Power Splitter,50? 4000 to 8000 MHz"                      
+IC12             LT1964ES5-BYP#TRMPBF        TopLayer    SOT95P280X100-5N               1195.866      711.614       180      "200mA, Low Noise, Low Dropout Negative Micropower Regulator"        
+IC11             LT1964ES5-BYP#TRMPBF        TopLayer    SOT95P280X100-5N               638.780       2036.417      180      "200mA, Low Noise, Low Dropout Negative Micropower Regulator"        
+IC9              CDCLVC1102PW                TopLayer    SOP65P640X120-8N               2621.063      1476.378      90       "3.3 V and 2.5 V LVCMOS 1:2  High-Performance Clock Buffer"          
+IC8              YAT-3+                      TopLayer    MINI-CIRCUITS_MC1630           1412.402      1745.079      180      "DC to 18GHz, 2W, 50 Ohm, 4dB Attenuator"                            
+IC7              SIM-153+                    TopLayer    MINI-CIRCUITS_HV1195           1160.675      2289.652      270      "Level 7 (LO Power +7 dBm) 3400 to 15000 MHz"                        
+IC6              SIM-153+                    TopLayer    MINI-CIRCUITS_HV1195           1904.921      359.843       270      "Level 7 (LO Power +7 dBm) 3400 to 15000 MHz"                        
+IC3_BUCK_5V5     LTM8074IY#PBF               TopLayer    BGA25C65P5X5_400X400X198       1868.202      1849.340      270      "40VIN, 1.2A Silent Switcher µModule Regulator"                      
+IC3_BUCK_3V8     LTM8074IY#PBF               TopLayer    BGA25C65P5X5_400X400X198       2162.344      1357.470      90       "40VIN, 1.2A Silent Switcher µModule Regulator"                      
+IC1_PreampRX2    LEE-39+                     TopLayer    MINI-CIRCUITS_FG873            1857.590      2415.036      360      "Monolithic Amplifier"                                               
+IC1_PreampLO_RX  LEE-39+                     TopLayer    MINI-CIRCUITS_FG873            1239.202      1978.784      90       "Monolithic Amplifier"                                               
+FL6              "8250 to 8450MHz"           TopLayer    FIL_MINI-CIRCUITS_FV1206-4     525.592       2327.757      40       "50 Ohm 8250 to 8450MHz Band Pass Filter"                            
+FL4              "5000 to 10100 MHz"         TopLayer    FIL_MINI-CIRCUITS_FV1206-1     885.085       2416.622      90       "50 Ohm 5000 to 10100 MHz   Bandpass Filter"                         
+FL3              "7900 to 11000 MHz"         TopLayer    FIL_MINI-CIRCUITS_FV1206-1     1593.504      417.323       270      "50 Ohm 7900 to 11000 MHz  Bandpass Filter"                          
+FL2              "DC to 12000MHz"            TopLayer    FIL_MINI-CIRCUITS_FV1206-4     934.053       486.290       180      "50 Ohm DC to 12000MHz Low Pass Filter"                              
+D2               BAT165                      TopLayer    SOD2512X110N                   439.961       1682.087      180      "Schottky Diode"                                                     
+D1               BAT165                      TopLayer    SOD2512X110N                   439.961       1750.606      360      "Schottky Diode"                                                     
+C49              10nF                        TopLayer    CAPC1005X55N                   2630.905      1205.709      270      "Non-polarised capacitor"                                            
+C48              1uF                         TopLayer    CAPC1608X87N                   419.291       813.976       360      "Non-polarised capacitor"                                            
+C47              10nF                        TopLayer    CAPC1005X55N                   2589.567      1205.709      270      "Non-polarised capacitor"                                            
+C46              100pF                       TopLayer    CAPC1005X55N                   2638.780      763.779       270      "Non-polarised capacitor"                                            
+C45              Undefined                   TopLayer    CAPC1005X55N                   2536.417      763.779       270      "Non-polarised capacitor"                                            
+C44              1nF                         BottomLayer CAPC1005X55N                   2652.649      1654.778      270      "Non-polarised capacitor"                                            
+C43              100pF                       BottomLayer CAPC1005X55N                   2617.216      1654.778      270      "Non-polarised capacitor"                                            
+C40_BUCK_3V8     10uF                        TopLayer    CAPC2012X95N                   2324.343      1356.300      270      "Non-polarised capacitor"                                            
+C39_BUCK_5V5     1uF                         TopLayer    CAPC2012X110N                  2005.700      1900.521      270      "Non-polarised capacitor"                                            
+C39_BUCK_3V8     1uF                         TopLayer    CAPC2012X110N                  2012.335      1305.119      90       "Non-polarised capacitor"                                            
+C36              10nF                        TopLayer    CAPC1005X55N                   2692.913      2041.339      180      "Non-polarised capacitor"                                            
+C35              10uF                        TopLayer    CAPC2012X135N                  753.937       2168.307      180      "Non-polarised capacitor"                                            
+C34              100nF                       TopLayer    CAPC1005X55N                   650.591       2238.189      90       "Non-polarised capacitor"                                            
+C33              100nF                       TopLayer    CAPC1005X55N                   783.465       2237.205      90       "Non-polarised capacitor"                                            
+C32              10uF                        TopLayer    CAPC2012X135N                  754.221       2590.309      180      "Non-polarised capacitor"                                            
+C31              100nF                       TopLayer    CAPC1005X55N                   650.591       2509.843      270      "Non-polarised capacitor"                                            
+C30              100nF                       TopLayer    CAPC1005X55N                   782.480       2510.827      270      "Non-polarised capacitor"                                            
+C29              1nF                         TopLayer    CAPC1005X55N                   554.134       331.693       360      "Non-polarised capacitor"                                            
+C28              1nF                         TopLayer    CAPC1005X55N                   620.995       246.063       360      "Non-polarised capacitor"                                            
+C27              1uF                         TopLayer    CAPC3216X140N                  627.953       187.008       360      "Non-polarised capacitor"                                            
+C26              1nF                         TopLayer    CAPC1005X55N                   735.168       229.921       90       "Non-polarised capacitor"                                            
+C25              1uF                         TopLayer    CAPC3216X140N                  795.276       179.134       90       "Non-polarised capacitor"                                            
+C24              1nF                         TopLayer    CAPC1005X55N                   860.236       231.299       90       "Non-polarised capacitor"                                            
+C23              1uF                         TopLayer    CAPC3216X140N                  961.614       325.787       180      "Non-polarised capacitor"                                            
+C22              1nF                         TopLayer    CAPC1005X55N                   947.835       383.858       180      "Non-polarised capacitor"                                            
+C21              10uF                        TopLayer    CAPC2012X95N                   1009.843      705.709       270      "Non-polarised capacitor"                                            
+C20              1uF                         TopLayer    CAPC1608X87N                   1307.087      673.228       90       "Non-polarised capacitor"                                            
+C19              10nF                        TopLayer    CAPC1608X87N                   1081.693      713.583       270      "Non-polarised capacitor"                                            
+C18              10uF                        TopLayer    CAPC2012X95N                   469.488       2027.559      270      "Non-polarised capacitor"                                            
+C17              1uF                         TopLayer    CAPC1608X87N                   746.063       1985.236      90       "Non-polarised capacitor"                                            
+C16              10nF                        TopLayer    CAPC1608X87N                   616.142       1946.850      180      "Non-polarised capacitor"                                            
+C10_PreampRX1    100pF                       TopLayer    CAPC1005X55N                   1480.315      2302.165      360      "Non-polarised capacitor"                                            
+C3_PreampRX1     10uF                        TopLayer    CAPC3216X180N                  1637.795      2625.941      180      "Non-polarised capacitor"                                            
+C3_PreampRX2     10uF                        TopLayer    CAPC3216X180N                  1818.898      2237.205      360      "Non-polarised capacitor"                                            
+C3_PreampLO_RX   10uF                        TopLayer    CAPC3216X180N                  1418.273      1938.948      90       "Non-polarised capacitor"                                            
+C2_PreampRX1     1nF                         TopLayer    CAPC1005X55N                   1484.573      2612.974      360      "Non-polarised capacitor"                                            
+C2_PreampRX2     1nF                         TopLayer    CAPC1005X55N                   1784.165      2149.414      90       "Non-polarised capacitor"                                            
+C2_PreampLO_RX   1nF                         TopLayer    CAPC1005X55N                   1530.512      2143.701      270      "Non-polarised capacitor"                                            
+C1_PreampRX1     100pF                       TopLayer    CAPC1005X55N                   1484.573      2569.667      360      "Non-polarised capacitor"                                            
+C1_PreampRX2     100pF                       TopLayer    CAPC1005X55N                   1824.803      2149.606      90       "Non-polarised capacitor"                                            
+C1_PreampLO_RX   100pF                       TopLayer    CAPC1005X55N                   1483.017      1992.126      90       "Non-polarised capacitor"                                            
+C10_PreampLO_RX  100pF                       TopLayer    CAPC1005X55N                   1239.512      1848.425      90       "Non-polarised capacitor"                                            
+BSC21            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2761.417      2081.580      90       ""                                                                   
+R14              42k2                        BottomLayer RESC1608X55N                   839.567       1193.898      360      "Resistor - 0.1%"                                                    
+J7               U.FL                        TopLayer    HIROSE_U.FL-R-SMT-1(10)        2457.677      1347.933      360      ""                                                                   
+C7               2.2uF                       TopLayer    CAPC3216X180N                  683.071       1489.173      360      "Non-polarised capacitor"                                            
+C15              10nF                        TopLayer    CAPC1608X87N                   513.682       622.047       180      "Non-polarised capacitor"                                            
+R24              Undefined                   BottomLayer RESC1608X55N                   881.890       708.661       90       Resistor                                                             
+R23              10k                         TopLayer    RESC1005X40N                   767.716       621.063       270      "Resistor - 1%"                                                      
+R22              Undefined                   TopLayer    RESC1608X55N                   489.173       711.614       270      Resistor                                                             
+P1               50k                         TopLayer    TRIM_BOURNS_3223W              881.890       681.102       180      "Trimming Potentiometer"                                             
+IC4              LT1964ES5-BYP#TRMPBF        TopLayer    SOT95P280X100-5N               598.425       712.598       180      "200mA, Low Noise, Low Dropout Negative Micropower Regulator"        
+C14              1nF                         TopLayer    CAPC1005X55N                   3177.631      1323.952      180      "Non-polarised capacitor"                                            
+C13              100pF                       TopLayer    CAPC1005X55N                   3177.611      1364.757      180      "Non-polarised capacitor"                                            
+C12              47uF                        TopLayer    CAPC_TDK_CKG57N                307.084       1025.591      270      "Non-polarised capacitor"                                            
+R18              Undefined                   BottomLayer RESC1608X55N                   863.189       1075.787      90       Resistor                                                             
+R17              Undefined                   BottomLayer RESC1608X55N                   1007.874      1121.063      90       Resistor                                                             
+R16              0                           BottomLayer RESC1608X55N                   839.567       1243.110      360      Resistor                                                             
+R15              6k19                        BottomLayer RESC1608X55N                   1007.874      1364.757      270      "Resistor - 0.1%"                                                    
+R13              100k                        BottomLayer RESC1608X55N                   1006.890      1260.827      270      "Resistor - 0.1%"                                                    
+R12              0                           BottomLayer RESC1608X55N                   1008.858      1004.921      270      Resistor                                                             
+C9               Undefined                   BottomLayer CAPC1608X90N                   838.583       1292.323      360      "Non-polarised capacitor"                                            
+C8               Undefined                   BottomLayer CAPC1608X90N                   923.228       1370.079      270      "Non-polarised capacitor"                                            
+C6               2.2uF                       TopLayer    CAPC3216X180N                  502.953       1489.173      180      "Non-polarised capacitor"                                            
+C5               2.2uF                       TopLayer    CAPC3216X180N                  333.661       1243.110      360      "Non-polarised capacitor"                                            
+C4               2.2uF                       TopLayer    CAPC3216X180N                  330.709       1335.987      360      "Non-polarised capacitor"                                            
+IC2              LTM8056IY#PBF               TopLayer    BGA121C127P11X11_1500X1500X512 714.764       1142.913      180      "58VIN, 48VOUT Buck-Boost µModule Regulator"                         
+J5               M80-5000000M5-02-333-00-000 TopLayer    M80-5000000M5-02-333-00-000    102.362       1606.299      90       "2pin (2 power), THT socket with M2 jackscrews"                      
+U6               ADF5356                     TopLayer    ADF3356                        2610.434      1012.674      360      ""                                                                   
+BSC20            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2840.157      2081.580      90       ""                                                                   
+BSC19            "1206 Male"                 TopLayer    PCB_CONN_1206M                 3261.811      1995.079      360      ""                                                                   
+BSC18            "1206 Male"                 TopLayer    PCB_CONN_1206M                 3261.811      695.866       360      ""                                                                   
+BSC17            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2997.638      2081.580      90       ""                                                                   
+BSC16            "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      791.339       360      ""                                                                   
+BSC15            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2918.898      2081.580      90       ""                                                                   
+BSC14            "06031206 Male"             TopLayer    PCB_CONN_0603M                 3155.118      2081.580      90       ""                                                                   
+BSC13            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2446.457      2081.580      90       ""                                                                   
+BSC12            "06031206 Male"             TopLayer    PCB_CONN_0603M                 3076.378      2081.580      90       ""                                                                   
+BSC11            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2682.677      2081.580      90       ""                                                                   
+BSC10            "06031206 Male"             TopLayer    PCB_CONN_0603M                 2603.937      2081.580      90       ""                                                                   
+BSC8             "06031206 Male"             TopLayer    PCB_CONN_0603M                 2525.197      2081.580      90       ""                                                                   
+BSC7             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1431.037      360      ""                                                                   
+BSC4             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      870.275       360      ""                                                                   
+BSC3             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1118.242      360      ""                                                                   
+BSC2             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1744.094      360      ""                                                                   
+BSC1             "06031206 Male"             TopLayer    PCB_CONN_0603M                 3280.000      1221.522      360      ""                                                                   
+R150             Undefined                   BottomLayer RESC1608X55N                   838.583       1391.732      180      Resistor                                                             
+R142             0                           BottomLayer RESC1608X55N                   1581.693      1050.197      90       Resistor                                                             
+R133             0                           TopLayer    RESC1608X55N                   2953.604      820.719       90       Resistor                                                             
+R132             0                           TopLayer    RESC1608X55N                   3015.726      753.089       270      Resistor                                                             
+R125             0                           BottomLayer RESC1608X55N                   2385.827      922.244       360      Resistor                                                             
+R115             0                           TopLayer    RESC1608X55N                   1998.748      1449.803      360      Resistor                                                             
+R113             0                           BottomLayer RESC1608X55N                   2183.207      1677.165      180      Resistor                                                             
+R105             0                           TopLayer    RESC1608X55N                   629.818       622.047       180      Resistor                                                             
+R96              12k                         TopLayer    RESC1005X40N                   574.691       1804.094      90       "Resistor - 1%"                                                      
+R92              0                           BottomLayer RESC1608X55N                   1385.827      1122.047      270      Resistor                                                             
+R91              0                           BottomLayer RESC1608X55N                   1524.606      1448.819      90       Resistor                                                             
+R88              0                           BottomLayer RESC1608X55N                   2425.970      849.783       0        Resistor                                                             
+R63              0                           TopLayer    RESC1608X55N                   595.714       2205.008      90       Resistor                                                             
+R61              0                           TopLayer    RESC1608X55N                   595.472       2524.606      270      Resistor                                                             
+R40              430                         TopLayer    RESC1608X55N                   2841.718      1003.366      360      "Resistor - 1%"                                                      
+R39              68                          TopLayer    RESC1608X55N                   2851.460      859.131       180      "Resistor - 1%"                                                      
+R2               Undefined                   TopLayer    RESC1005X40N                   1736.220      476.378       270      Resistor                                                             
+R1               0                           TopLayer    RESC1005X40N                   2537.312      1304.997      360      Resistor                                                             
+IC19             LT1763CS8#PBF               TopLayer    SOIC127P600X175-8N             1449.803      1374.016      90       "1.22V to 20V 500mA, Low Noise, LDO Adjustable Micropower Regulator" 
+IC18             LTC2851CMS8#PBF             TopLayer    SOP65P490X110-8N               1513.780      1006.890      180      "3.3V 20Mbps RS485/RS422 Transceivers"                               
+IC14             LTC2851CMS8#PBF             TopLayer    SOP65P490X110-8N               3103.919      865.135       180      "3.3V 20Mbps RS485/RS422 Transceivers"                               
+IC10             LT1763CS8#PBF               TopLayer    SOIC127P600X175-8N             2043.307      1602.362      360      "1.22V to 20V 500mA, Low Noise, LDO Adjustable Micropower Regulator" 
+IC5              LT1763CS8#PBF               TopLayer    SOIC127P600X175-8N             1807.031      1183.425      270      "1.22V to 20V 500mA, Low Noise, LDO Adjustable Micropower Regulator" 
+C203             100nF                       BottomLayer CAPC1005X55N                   1447.835      1092.913      180      "Non-polarised capacitor"                                            
+C202             100nF                       TopLayer    CAPC1005X55N                   3190.967      776.163       90       "Non-polarised capacitor"                                            
+C201             100nF                       BottomLayer CAPC1005X55N                   2758.858      914.370       180      "Non-polarised capacitor"                                            
+C200             100pF                       BottomLayer CAPC1005X55N                   2758.858      875.984       180      "Non-polarised capacitor"                                            
+C192             1uF                         TopLayer    CAPC1608X87N                   2193.898      1786.417      360      "Non-polarised capacitor"                                            
+C183             10uF                        TopLayer    CAPC2012X95N                   416.339       702.756       270      "Non-polarised capacitor"                                            
+C182             1uF                         TopLayer    CAPC1608X87N                   711.614       653.543       90       "Non-polarised capacitor"                                            
+C124             100nF                       BottomLayer CAPC1005X55N                   2718.971      1193.898      270      "Non-polarised capacitor"                                            
+C123             100pF                       BottomLayer CAPC1005X55N                   2679.601      1192.913      270      "Non-polarised capacitor"                                            
+C122             100nF                       TopLayer    CAPC1005X55N                   2539.552      1181.965      90       "Non-polarised capacitor"                                            
+C121             100nF                       TopLayer    CAPC1005X55N                   2804.421      1158.360      180      "Non-polarised capacitor"                                            
+C120             10pF                        TopLayer    CAPC1005X55N                   2804.421      1118.755      180      "Non-polarised capacitor"                                            
+C119             100nF                       BottomLayer CAPC1005X55N                   2416.521      1012.674      360      "Non-polarised capacitor"                                            
+C118             100pF                       BottomLayer CAPC1005X55N                   2687.008      947.835       360      "Non-polarised capacitor"                                            
+C117             6.8nF                       TopLayer    CAPC2012X135N                  2847.482      1066.624      180      "Non-polarised capacitor"                                            
+C116             100nF                       TopLayer    CAPC1005X55N                   2728.922      1141.611      360      "Non-polarised capacitor"                                            
+C115             100nF                       BottomLayer CAPC1005X55N                   2687.008      1077.756      360      "Non-polarised capacitor"                                            
+C114             10pF                        BottomLayer CAPC1005X55N                   2687.008      1034.449      360      "Non-polarised capacitor"                                            
+C113             1uF                         TopLayer    CAPC3216X140N                  2881.195      924.830       360      "Non-polarised capacitor"                                            
+C112             10pF                        BottomLayer CAPC1005X55N                   2679.134      864.173       270      "Non-polarised capacitor"                                            
+C111             100nF                       BottomLayer CAPC1005X55N                   2687.008      991.142       360      "Non-polarised capacitor"                                            
+C110             100pF                       BottomLayer CAPC1005X55N                   2416.521      973.304       360      "Non-polarised capacitor"                                            
+C109             33nF                        TopLayer    CAPC2012X135N                  2953.045      1035.600      270      "Non-polarised capacitor"                                            
