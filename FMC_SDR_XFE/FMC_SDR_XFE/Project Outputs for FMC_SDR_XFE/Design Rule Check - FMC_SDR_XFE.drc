@@ -1,45 +1,53 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
-Date     : 17.02.2020
-Time     : 19:52:54
+Date     : 03.03.2020
+Time     : 12:51:23
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampTX_1')),(All)
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC10_PreampRX2_1')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC38_1')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC10_PreampRX2_1')),(All)
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC88_1')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
+Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC81_PreampLO_TX_1')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50R_class')),((OnLayer('Int2') OR OnLayer('Int3')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InComponentClass('50R_interconnected')),(InNetClass('50R_class') or IsDifferentialPair or OnLayer(Keepout))
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNetClass('100R_diff')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (OnLayer('Top Solder')),(InNetClass('50R_class'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1mm) (not IsKeepOut),(InNamedPolygon('balancingB'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsKeepOut),(InNamedPolygon('balancingB'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (IsVia and ( InNet('GND') or InNet('PA_GND'))),(InNetClass('50R_class') or IsDifferentialPair)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top 
    Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (8.002mm,51.798mm) on Int6 [PWR] And Polygon Track (0.433mm,44.281mm)(7.951mm,51.8mm) on Int6 [PWR] 
-Rule Violations :2
-
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC87_1')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.5mm) ((InNet('SCH') AND OnLayer('Int2 [shielded signals]'))),((IsTrack OR IsArc))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC88_1')),(All)
-Rule Violations :0
+Rule Violations :1
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -50,16 +58,16 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.25mm) (All)
-Rule Violations :0
-
 Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=1.5mm) (InNetClass('highPower'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.7mm) (InNetClass('midPower'))
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.25mm) (All)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=50,00ohms) (Max=50,00ohms) (Preferred=50,00ohms) (InNetClass('50R_class'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.7mm) (InNetClass('midPower'))
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
@@ -89,10 +97,10 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Processing Rule : Board Clearance Constraint (Gap=0mm) (InNet('SCH') And OnLayer('Top'))
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (InNet('SCH') And OnLayer('Top'))
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) ((OnLayer('Top Solder') OR OnLayer('Bottom Solder')))
@@ -111,23 +119,23 @@ Waived Violations :1
 Waived Violations Of Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
    Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,16.55mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
    Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,8.15mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
+   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:54:24
    Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,62.05mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
-Waived Violations :3
+Waived Violations :4
 
 Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
    Waived Violation between Un-Routed Net Constraint: Net SH Between Via (53.975mm,56.802mm) from Top to Bottom And Via (74.25mm,39.3mm) from Top to Bottom Waived by Stanis³aw Hanasz at 17.02.2020 19:41:15
 Waived Violations :1
 
 Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.015mm < 0.2mm) Between Area Fill (0.075mm,0.14mm) (4.075mm,7.125mm) on Top And Board Edge Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.025mm < 0.2mm) Between Area Fill (0.241mm,63.075mm) (4.825mm,69.1mm) on Top And Board Edge Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.025mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.084mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.117mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(-4.2mm,50mm) on Top Overlay Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(5.6mm,31.6mm) on Top Overlay Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,50mm)(5.6mm,50mm) on Top Overlay Waived by Stanis³aw Hanasz at 17.02.2020 19:40:26
-Waived Violations :8
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.015mm < 0.2mm) Between Area Fill (0.075mm,0.14mm) (4.075mm,7.125mm) on Top And Board Edge Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.025mm < 0.2mm) Between Area Fill (0.241mm,63.075mm) (4.825mm,69.1mm) on Top And Board Edge Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.025mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.084mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.117mm < 0.2mm) Between Board Edge And Region (0 hole(s)) Top Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,31.6mm)(5.6mm,31.6mm) on Top Overlay Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.2mm) Between Board Edge And Track (-4.2mm,50mm)(5.6mm,50mm) on Top Overlay Waived by Stanis³aw Hanasz at 02.03.2020 21:53:54
+Waived Violations :7
 
 Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
    Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) Waived by Stanis³aw Hanasz at 17.02.2020 19:41:32
@@ -136,6 +144,6 @@ Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.
 Waived Violations :3
 
 
-Violations Detected : 2
+Violations Detected : 1
 Waived Violations : 16
-Time Elapsed        : 00:01:06
+Time Elapsed        : 00:00:57
