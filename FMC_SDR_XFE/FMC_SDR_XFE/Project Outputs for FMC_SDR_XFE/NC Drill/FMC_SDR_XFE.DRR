@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: FMC_SDR_XFE.PcbDoc   03.03.2020  22:17:42
+NCDrill File Report For: FMC_SDR_XFE.PcbDoc   19.03.2020  00:24:16
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top to Bottom
@@ -7,7 +7,7 @@ ASCII RoundHoles File : FMC_SDR_XFE.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      8mil (0.2mm)                                              Round             1359      PTH        0.00inch (0.00mm)
+T1      8mil (0.2mm)                                              Round             1357      PTH        0.00inch (0.00mm)
 T2      12mil (0.3mm)                                             Round             14        PTH        0.00inch (0.00mm)
 T3      39mil (1mm)                                               Round             4         PTH        0.00inch (0.00mm)
 T4      51mil (1.3mm)                                             Round             8         PTH        0.00inch (0.00mm)
@@ -15,6 +15,6 @@ T5      65mil (1.65mm)                                            Round         
 T6      89mil (2.25mm)                                            Round             2         PTH        0.00inch (0.00mm)
 T7      94mil (2.4mm)                                             Round             13        PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              1402
+Totals                                                                              1400
 
-Total Processing Time (hh:mm:ss) : 00:00:05
+Total Processing Time (hh:mm:ss) : 00:00:04

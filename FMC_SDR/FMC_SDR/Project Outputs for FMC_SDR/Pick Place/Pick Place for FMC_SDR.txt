@@ -4,9 +4,9 @@ D:\My Work\INNE\FMC_SDR\FMC_SDR\FMC_SDR\Project Outputs for FMC_SDR\Pick Place\P
 ========================================================================================================================
 File Design Information:
 
-Date:       03.03.20
-Time:       13:39
-Revision:   0525db9c2e5c9b9693491075c1a89acfebd66de6
+Date:       19.03.20
+Time:       00:08
+Revision:   56ea0e8993deb10f2ac8f12f503519989f436418
 Variant:    No variations
 Units used: mil
 
@@ -205,7 +205,7 @@ C21        1nF              TopLayer    CAPC1005X55N                  5117.126  
 C19        1nF              TopLayer    CAPC1005X55N                  5078.126      513.693       270      "Non-polarised capacitor"                                                                                                  
 C4         10uF             TopLayer    CAPC1608X87N                  5134.842      189.961       90       "Non-polarised capacitor"                                                                                                  
 C3         100nF            TopLayer    CAPC1005X55N                  2969.488      2282.480      0        "Non-polarised capacitor"                                                                                                  
-R2         49R9             BottomLayer RESC1005X40N                  4442.717      1662.402      360      "Resistor - 1%"                                                                                                            
+R2         49R9             BottomLayer RESC1005X40N                  4003.937      1492.126      90       "Resistor - 1%"                                                                                                            
 R8         10k              TopLayer    RESC1005X40N                  4028.543      984.449       90       "Resistor - 1%"                                                                                                            
 R5         10k              TopLayer    RESC1005X40N                  3922.244      1575.787      360      "Resistor - 1%"                                                                                                            
 R10        14k3             TopLayer    RESC1608X55N                  3746.063      1576.066      270      "Resistor - 0.1%"                                                                                                          

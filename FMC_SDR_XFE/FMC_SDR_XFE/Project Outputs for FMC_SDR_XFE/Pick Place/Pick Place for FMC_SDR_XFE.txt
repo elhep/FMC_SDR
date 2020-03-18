@@ -4,8 +4,8 @@ D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\Project Outputs for FMC_SDR_XFE\
 ========================================================================================================================
 File Design Information:
 
-Date:       03.03.20
-Time:       22:17
+Date:       19.03.20
+Time:       00:24
 Revision:   56ea0e8993deb10f2ac8f12f503519989f436418
 Variant:    No variations
 Units used: mil
@@ -191,7 +191,7 @@ C68              10uF                        TopLayer    CAPC2012X95N           
 C11              1uF                         BottomLayer CAPC1608X87N                   1850.394      1012.795      0        "Non-polarised capacitor"                                            
 J6               Coax_1Male_1Shield          BottomLayer ROSENBERGER_19S103-400L5       1489.177      795.079       180      ""                                                                   
 R7               Undefined                   TopLayer    RESC1005X40N                   1145.669      484.252       270      Resistor                                                             
-R82              0                           TopLayer    RESC3216X65N                   330.709       1430.118      360      Resistor                                                             
+R82              0                           TopLayer    RESC3216X65N                   328.740       1430.118      360      Resistor                                                             
 R81              Undefined                   BottomLayer RESC3216X65N                   805.118       1489.173      180      Resistor                                                             
 R80              0                           BottomLayer RESC3216X65N                   1364.173      1349.409      360      Resistor                                                             
 R59_PreampTX     43                          TopLayer    RESC1608X55N                   1106.299      247.047       270      "Resistor - 1%"                                                      
@@ -360,8 +360,8 @@ R12              0                           BottomLayer RESC1608X55N           
 C9               Undefined                   BottomLayer CAPC1608X90N                   838.583       1292.323      360      "Non-polarised capacitor"                                            
 C8               Undefined                   BottomLayer CAPC1608X90N                   923.228       1370.079      270      "Non-polarised capacitor"                                            
 C6               2.2uF                       TopLayer    CAPC3216X180N                  502.953       1489.173      180      "Non-polarised capacitor"                                            
-C5               2.2uF                       TopLayer    CAPC3216X180N                  333.661       1243.110      360      "Non-polarised capacitor"                                            
-C4               2.2uF                       TopLayer    CAPC3216X180N                  330.709       1335.987      360      "Non-polarised capacitor"                                            
+C5               2.2uF                       TopLayer    CAPC3216X180N                  329.724       1243.110      360      "Non-polarised capacitor"                                            
+C4               2.2uF                       TopLayer    CAPC3216X180N                  329.724       1335.987      360      "Non-polarised capacitor"                                            
 IC2              LTM8056IY#PBF               TopLayer    BGA121C127P11X11_1500X1500X512 714.764       1142.913      180      "58VIN, 48VOUT Buck-Boost µModule Regulator"                         
 J5               M80-5000000M5-02-333-00-000 TopLayer    M80-5000000M5-02-333-00-000    102.362       1606.299      90       "2pin (2 power), THT socket with M2 jackscrews"                      
 U6               ADF5356                     TopLayer    ADF3356                        2610.434      1012.674      360      ""                                                                   
