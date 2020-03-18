@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\My Work\INNE\FMC_SDR\FMC_SDR_XFE\FMC_SDR_XFE\FMC_SDR_XFE.PcbDoc
-Date     : 03.03.2020
-Time     : 18:56:38
+Date     : 11.03.2020
+Time     : 15:26:19
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('NetC10_PreampRX2_1')),(All)
 Rule Violations :0
@@ -46,7 +46,9 @@ Processing Rule : Clearance Constraint (Gap=0.15mm) (IsVia and ( InNet('GND') or
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Pad L1_PreampRX2-2(51.945mm,59.346mm) on Top And Via (52.675mm,58.765mm) from Top to Bottom 
+   Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (8.002mm,51.798mm) on Int6 [PWR] And Polygon Track (0.433mm,44.281mm)(7.951mm,51.8mm) on Int6 [PWR] 
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -119,28 +121,28 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 Waived Violations Of Rule : Clearance Constraint (Gap=0.5mm) (InNetClass('50R_class')),(All)
-   Waived Violation between Clearance Constraint: (0.46mm < 0.5mm) Between Pad C37-1(65.3mm,19.825mm) on Top And Track (65.3mm,18.925mm)(66.965mm,18.925mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:40:40
+   Waived Violation between Clearance Constraint: (0.46mm < 0.5mm) Between Pad C37-1(65.3mm,19.825mm) on Top And Track (65.3mm,18.925mm)(66.965mm,18.925mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:40:40
 Waived Violations :1
 
 Waived Violations Of Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
-   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,16.55mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
-   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,8.15mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
-   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:54:24
-   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,62.05mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:06
-   Waived Violation between Clearance Constraint: (0.149mm < 0.15mm) Between Polygon Arc (8.002mm,51.798mm) on Int6 [PWR] And Polygon Track (0.433mm,44.281mm)(7.951mm,51.8mm) on Int6 [PWR] Waived by Stanis³aw Hanasz at 03.03.2020 13:08:52
-Waived Violations :5
+   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,16.55mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:41:06
+   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J1-2(4.675mm,8.15mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:41:06
+   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,53.65mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:54:24
+   Waived Violation between Clearance Constraint: (0.1mm < 0.15mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(4.7mm,62.05mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:41:06
+Waived Violations :4
 
 Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
-   Waived Violation between Un-Routed Net Constraint: Net SH Between Via (53.975mm,56.802mm) from Top to Bottom And Via (74.25mm,39.3mm) from Top to Bottom Waived by Stanis³aw Hanasz at 17.02.2020 19:41:15
-Waived Violations :1
+   Waived Violation between Un-Routed Net Constraint: Net SH Between Via (53.975mm,56.802mm) from Top to Bottom And Via (74.25mm,39.3mm) from Top to Bottom Waived by Stanis³aw Hanasz at 17.02.2020 11:41:15
+   Waived Violation between Un-Routed Net Constraint: Net SH Between Via (53.975mm,56.802mm) from Top to Bottom And Via (74.25mm,39.3mm) from Top to Bottom Waived by Stanis³aw Hanasz at 17.02.2020 11:41:15
+Waived Violations :2
 
 Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.2mm, Vertical Gap = 0.2mm ) (All),(All) 
-   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) Waived by Stanis³aw Hanasz at 17.02.2020 19:41:32
-   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:32
-   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 19:41:32
+   Waived Violation between Component Clearance Constraint: (0.055mm < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) Waived by Stanis³aw Hanasz at 17.02.2020 11:41:32
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part1 (Mechanical 13)  Standoff=-3.6mm  Overall=4mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:41:32
+   Waived Violation between Component Clearance Constraint: (Collision < 0.2mm) Between 3D STEP TELEGARTNER_J01151A0451_Part2 (Mechanical 13)  Standoff=-4.249mm  Overall=5.249mm  (72.675mm, 55.95mm) And SMT Small Component J1-SMA (10.325mm,12.35mm) on Top Waived by Stanis³aw Hanasz at 17.02.2020 11:41:32
 Waived Violations :3
 
 
-Violations Detected : 7
+Violations Detected : 9
 Waived Violations : 10
-Time Elapsed        : 00:01:02
+Time Elapsed        : 00:01:23

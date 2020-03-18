@@ -2,10 +2,10 @@
 FileName = FMC_SDR.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Solder
-      File : FMC_SDR.GBS
+Generating : Bottom Paste
+      File : FMC_SDR.GBP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom
 
@@ -13,64 +13,23 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D49
-    D55
-    D59
-    D60
-    D63
-    D73
-    D78
-    D79
-    D80
-    D103
-    D104
+    D10
+    D11
+    D14
+    D16
+    D23
+    D24
+    D27
+    D37
     D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
     D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-*************************************************************
-
-*************************************************************
-Generating : Int5 [GND/PWR]
-      File : FMC_SDR.G5
-
-    Adding Layer      : Int5 [GND/PWR]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D81
-    D82
-    D87
-    D88
-    D89
-    D91
-*************************************************************
-
-*************************************************************
-Generating : Int2 [GND]
-      File : FMC_SDR.G2
-
-    Adding Layer      : Int2 [GND]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D87
-    D88
-    D89
-    D91
-    D98
+    D122
 *************************************************************
 
 *************************************************************
@@ -120,110 +79,27 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top
-      File : FMC_SDR.GTL
+Generating : Int4 [high speed]
+      File : FMC_SDR.G4
 
-    Adding Layer      : Top
+    Adding Layer      : Int4 [high speed]
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D12
-    D13
-    D14
     D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D81
     D82
     D83
     D84
-    D85
-    D86
-    D87
     D88
     D89
     D90
-    D91
-    D92
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : FMC_SDR.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D13
-    D19
-    D23
-    D24
-    D27
-    D37
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D121
-*************************************************************
-
-*************************************************************
-Generating : Int6 [GND/PWR]
-      File : FMC_SDR.G6
-
-    Adding Layer      : Int6 [GND/PWR]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D81
-    D82
-    D83
-    D87
-    D88
-    D89
-    D91
     D92
     D96
+    D97
+    D100
+    D101
     D102
 *************************************************************
 
@@ -237,33 +113,18 @@ Generating : Int3 [high speed]
 
 
 Used DCodes :
-    D14
-    D81
+    D15
+    D82
     D83
-    D86
-    D87
+    D84
     D88
     D89
-    D91
-    D93
-    D95
+    D90
+    D92
+    D94
+    D96
     D97
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : FMC_SDR.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D87
-    D122
-    D123
-    D124
-    D125
+    D100
 *************************************************************
 
 *************************************************************
@@ -317,58 +178,63 @@ Used DCodes :
     D78
     D79
     D80
+    D81
 *************************************************************
 
 *************************************************************
-Generating : Int4 [high speed]
-      File : FMC_SDR.G4
+Generating : Int6 [GND/PWR]
+      File : FMC_SDR.G6
 
-    Adding Layer      : Int4 [high speed]
+    Adding Layer      : Int6 [GND/PWR]
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D14
-    D81
-    D83
-    D86
-    D87
-    D88
-    D89
-    D91
-    D95
-    D97
-    D99
-    D100
-    D101
-*************************************************************
-
-*************************************************************
-Generating : Int1 [signals]
-      File : FMC_SDR.G1
-
-    Adding Layer      : Int1 [signals]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D81
+    D15
     D82
-    D83
+    D84
     D86
-    D87
     D88
     D89
-    D91
+    D90
     D92
     D93
-    D94
-    D95
-    D96
-    D97
+    D98
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Int2 [GND]
+      File : FMC_SDR.G2
+
+    Adding Layer      : Int2 [GND]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D88
+    D89
+    D90
+    D92
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : FMC_SDR.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D88
+    D123
+    D124
+    D125
+    D126
 *************************************************************
 
 *************************************************************
@@ -381,24 +247,24 @@ Generating : Bottom
 
 
 Used DCodes :
-    D13
-    D19
+    D11
+    D14
+    D16
     D23
     D24
     D27
     D37
-    D81
-    D83
-    D87
+    D82
+    D84
     D88
     D89
     D90
     D91
     D92
     D93
-    D96
-    D100
-    D103
+    D94
+    D98
+    D101
     D104
     D105
     D106
@@ -407,5 +273,144 @@ Used DCodes :
     D109
     D110
     D111
+    D112
+*************************************************************
+
+*************************************************************
+Generating : Int1 [signals]
+      File : FMC_SDR.G1
+
+    Adding Layer      : Int1 [signals]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D82
+    D83
+    D84
+    D86
+    D88
+    D89
+    D90
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : FMC_SDR.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D45
+    D50
+    D52
+    D59
+    D60
+    D63
+    D73
+    D78
+    D79
+    D80
+    D81
+    D104
+    D105
+    D106
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+*************************************************************
+
+*************************************************************
+Generating : Int5 [GND/PWR]
+      File : FMC_SDR.G5
+
+    Adding Layer      : Int5 [GND/PWR]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D82
+    D86
+    D88
+    D89
+    D90
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : FMC_SDR.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
 *************************************************************
 

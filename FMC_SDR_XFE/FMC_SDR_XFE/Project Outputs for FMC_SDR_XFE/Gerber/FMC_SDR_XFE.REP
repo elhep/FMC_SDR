@@ -2,6 +2,33 @@
 FileName = FMC_SDR_XFE.GBR
 AutoAperture = True
 *************************************************************
+Generating : Int5 [signals]
+      File : FMC_SDR_XFE.G5
+
+    Adding Layer      : Int5 [signals]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D181
+    D185
+    D186
+    D188
+    D189
+    D191
+    D195
+    D206
+    D207
+    D208
+    D209
+    D210
+    D211
+    D212
+    D213
+*************************************************************
+
+*************************************************************
 Generating : Top Solder
       File : FMC_SDR_XFE.GTS
 
@@ -112,43 +139,16 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Int5 [signals]
-      File : FMC_SDR_XFE.G5
+Generating : Int3 [GND]
+      File : FMC_SDR_XFE.G3
 
-    Adding Layer      : Int5 [signals]
+    Adding Layer      : Int3 [GND]
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D181
-    D185
-    D186
-    D188
     D189
-    D191
-    D195
-    D206
-    D207
-    D208
-    D209
-    D210
-    D211
-    D212
-    D213
-*************************************************************
-
-*************************************************************
-Generating : Int1 [GND]
-      File : FMC_SDR_XFE.G1
-
-    Adding Layer      : Int1 [GND]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D188
     D195
     D206
     D207
@@ -156,30 +156,14 @@ Used DCodes :
     D210
     D211
     D212
+    D214
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : FMC_SDR_XFE.GM1
+Generating : Bottom Paste
+      File : FMC_SDR_XFE.GBP
 
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D193
-    D195
-    D229
-    D230
-    D231
-    D232
-    D233
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : FMC_SDR_XFE.GBS
-
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom
 
@@ -187,33 +171,24 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D96
-    D97
-    D98
-    D100
-    D102
-    D111
-    D113
-    D126
-    D130
-    D147
-    D164
-    D165
-    D168
-    D169
-    D172
-    D173
-    D174
-    D175
-    D176
-    D177
-    D178
-    D223
-    D224
-    D225
-    D226
-    D227
-    D228
+    D10
+    D11
+    D12
+    D14
+    D16
+    D25
+    D26
+    D37
+    D41
+    D58
+    D75
+    D76
+    D79
+    D80
+    D219
+    D220
+    D221
+    D222
 *************************************************************
 
 *************************************************************
@@ -336,60 +311,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : FMC_SDR_XFE.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D14
-    D16
-    D25
-    D26
-    D37
-    D41
-    D58
-    D75
-    D76
-    D79
-    D80
-    D219
-    D220
-    D221
-    D222
-*************************************************************
-
-*************************************************************
-Generating : Int6 [PWR]
-      File : FMC_SDR_XFE.G6
-
-    Adding Layer      : Int6 [PWR]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D186
-    D188
-    D189
-    D195
-    D206
-    D207
-    D208
-    D210
-    D211
-    D212
-*************************************************************
-
-*************************************************************
 Generating : Bottom
       File : FMC_SDR_XFE.GBL
 
@@ -435,15 +356,75 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Int3 [GND]
-      File : FMC_SDR_XFE.G3
+Generating : Mechanical 1
+      File : FMC_SDR_XFE.GM1
 
-    Adding Layer      : Int3 [GND]
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D193
+    D195
+    D229
+    D230
+    D231
+    D232
+    D233
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : FMC_SDR_XFE.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D96
+    D97
+    D98
+    D100
+    D102
+    D111
+    D113
+    D126
+    D130
+    D147
+    D164
+    D165
+    D168
+    D169
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D223
+    D224
+    D225
+    D226
+    D227
+    D228
+*************************************************************
+
+*************************************************************
+Generating : Int6 [PWR]
+      File : FMC_SDR_XFE.G6
+
+    Adding Layer      : Int6 [PWR]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D188
     D189
     D195
     D206
@@ -452,7 +433,49 @@ Used DCodes :
     D210
     D211
     D212
+*************************************************************
+
+*************************************************************
+Generating : Int1 [GND]
+      File : FMC_SDR_XFE.G1
+
+    Adding Layer      : Int1 [GND]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D188
+    D195
+    D206
+    D207
+    D208
+    D210
+    D211
+    D212
+*************************************************************
+
+*************************************************************
+Generating : Int4 [PWR]
+      File : FMC_SDR_XFE.G4
+
+    Adding Layer      : Int4 [PWR]
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D186
+    D188
+    D191
+    D195
+    D205
+    D209
+    D210
+    D211
+    D212
     D214
+    D218
 *************************************************************
 
 *************************************************************
@@ -540,29 +563,6 @@ Used DCodes :
     D80
     D81
     D82
-*************************************************************
-
-*************************************************************
-Generating : Int4 [PWR]
-      File : FMC_SDR_XFE.G4
-
-    Adding Layer      : Int4 [PWR]
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D186
-    D188
-    D191
-    D195
-    D205
-    D209
-    D210
-    D211
-    D212
-    D214
-    D218
 *************************************************************
 
 *************************************************************
